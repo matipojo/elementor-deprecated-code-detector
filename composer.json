@@ -1,0 +1,14 @@
+{
+    "name": "mati/deprecation-detector",
+    "autoload": {
+        "psr-4": {
+            "DeprecationDetector\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Mati Horovitz",
+            "email": "mati@elementor.com"
+        }
+    ]
+}

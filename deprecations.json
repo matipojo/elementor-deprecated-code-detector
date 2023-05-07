@@ -1,0 +1,618 @@
+[
+    {
+        "type": "function",
+        "name": "localize_feedback_dialog_settings",
+        "version": "3.1.0",
+        "namespace": "Elementor\\Core\\Admin",
+        "line": 77,
+        "file_path": "\/core\/admin\/feedback.php"
+    },
+    {
+        "type": "class",
+        "name": "Module",
+        "version": "3.8.0",
+        "namespace": "Elementor\\App\\Modules\\ImportExport",
+        "line": 16,
+        "file_path": "\/core\/app\/modules\/import-export\/module.php"
+    },
+    {
+        "type": "class",
+        "name": "Kit_Library",
+        "version": "3.8.0",
+        "namespace": "Elementor\\Core\\App\\Modules\\KitLibrary\\Connect",
+        "line": 17,
+        "file_path": "\/core\/app\/modules\/kit-library\/connect\/kit-library.php"
+    },
+    {
+        "type": "function",
+        "name": "is_connected",
+        "version": "3.8.0",
+        "namespace": "Elementor\\Core\\App\\Modules\\KitLibrary\\Connect",
+        "line": 22,
+        "file_path": "\/core\/app\/modules\/kit-library\/connect\/kit-library.php"
+    },
+    {
+        "type": "class",
+        "name": "Module",
+        "version": "3.8.0",
+        "namespace": "Elementor\\Core\\App\\Modules\\KitLibrary",
+        "line": 15,
+        "file_path": "\/core\/app\/modules\/kit-library\/module.php"
+    },
+    {
+        "type": "class",
+        "name": "Module",
+        "version": "3.8.0",
+        "namespace": "Elementor\\Core\\App\\Modules\\Onboarding",
+        "line": 15,
+        "file_path": "\/core\/app\/modules\/onboarding\/module.php"
+    },
+    {
+        "type": "hook",
+        "name": "elementor/documents/register_controls",
+        "version": "3.1.0",
+        "namespace": "Elementor\\Core\\Base",
+        "line": 688,
+        "file_path": "\/core\/base\/document.php"
+    },
+    {
+        "type": "function",
+        "name": "localize_settings",
+        "version": "3.1.0",
+        "namespace": "Elementor\\Core\\Common\\Modules\\Connect",
+        "line": 117,
+        "file_path": "\/core\/common\/modules\/connect\/module.php"
+    },
+    {
+        "type": "function",
+        "name": "add_category",
+        "version": "3.5.0",
+        "namespace": "Elementor\\Core\\Common\\Modules\\Finder",
+        "line": 43,
+        "file_path": "\/core\/common\/modules\/finder\/categories-manager.php"
+    },
+    {
+        "type": "function",
+        "name": "localize_settings",
+        "version": "3.1.0",
+        "namespace": "Elementor\\Core\\DynamicTags",
+        "line": 45,
+        "file_path": "\/core\/dynamic-tags\/manager.php"
+    },
+    {
+        "type": "function",
+        "name": "register_tag",
+        "version": "3.5.0",
+        "namespace": "Elementor\\Core\\DynamicTags",
+        "line": 284,
+        "file_path": "\/core\/dynamic-tags\/manager.php"
+    },
+    {
+        "type": "function",
+        "name": "unregister_tag",
+        "version": "3.5.0",
+        "namespace": "Elementor\\Core\\DynamicTags",
+        "line": 321,
+        "file_path": "\/core\/dynamic-tags\/manager.php"
+    },
+    {
+        "type": "class",
+        "name": "Files_Upload_Handler",
+        "version": "3.5.0",
+        "namespace": "Elementor\\Core\\Files\\Assets",
+        "line": 20,
+        "file_path": "\/core\/files\/assets\/files-upload-handler.php"
+    },
+    {
+        "type": "function",
+        "name": "is_elementor_media_upload",
+        "version": "3.5.0",
+        "namespace": "Elementor\\Core\\Files\\Assets",
+        "line": 34,
+        "file_path": "\/core\/files\/assets\/files-upload-handler.php"
+    },
+    {
+        "type": "function",
+        "name": "handle_upload_prefilter",
+        "version": "3.5.0",
+        "namespace": "Elementor\\Core\\Files\\Assets",
+        "line": 68,
+        "file_path": "\/core\/files\/assets\/files-upload-handler.php"
+    },
+    {
+        "type": "function",
+        "name": "is_file_should_handled",
+        "version": "3.5.0",
+        "namespace": "Elementor\\Core\\Files\\Assets",
+        "line": 83,
+        "file_path": "\/core\/files\/assets\/files-upload-handler.php"
+    },
+    {
+        "type": "function",
+        "name": "check_filetype_and_ext",
+        "version": "3.5.0",
+        "namespace": "Elementor\\Core\\Files\\Assets",
+        "line": 121,
+        "file_path": "\/core\/files\/assets\/files-upload-handler.php"
+    },
+    {
+        "type": "class",
+        "name": "Json_Handler",
+        "version": "3.5.0",
+        "namespace": "Elementor\\Core\\Files\\Assets\\Json",
+        "line": 15,
+        "file_path": "\/core\/files\/assets\/json\/json-handler.php"
+    },
+    {
+        "type": "class",
+        "name": "Svg_Handler",
+        "version": "3.5.0",
+        "namespace": "Elementor\\Core\\Files\\Assets\\Svg",
+        "line": 21,
+        "file_path": "\/core\/files\/assets\/svg\/svg-handler.php"
+    },
+    {
+        "type": "function",
+        "name": "get_meta",
+        "version": "3.5.0",
+        "namespace": "Elementor\\Core\\Files\\Assets\\Svg",
+        "line": 49,
+        "file_path": "\/core\/files\/assets\/svg\/svg-handler.php"
+    },
+    {
+        "type": "function",
+        "name": "update_meta",
+        "version": "3.5.0",
+        "namespace": "Elementor\\Core\\Files\\Assets\\Svg",
+        "line": 62,
+        "file_path": "\/core\/files\/assets\/svg\/svg-handler.php"
+    },
+    {
+        "type": "function",
+        "name": "delete_meta",
+        "version": "3.5.0",
+        "namespace": "Elementor\\Core\\Files\\Assets\\Svg",
+        "line": 73,
+        "file_path": "\/core\/files\/assets\/svg\/svg-handler.php"
+    },
+    {
+        "type": "function",
+        "name": "delete_meta_cache",
+        "version": "3.5.0",
+        "namespace": "Elementor\\Core\\Files\\Assets\\Svg",
+        "line": 92,
+        "file_path": "\/core\/files\/assets\/svg\/svg-handler.php"
+    },
+    {
+        "type": "function",
+        "name": "sanitize_svg",
+        "version": "3.5.0",
+        "namespace": "Elementor\\Core\\Files\\Assets\\Svg",
+        "line": 125,
+        "file_path": "\/core\/files\/assets\/svg\/svg-handler.php"
+    },
+    {
+        "type": "function",
+        "name": "sanitizer",
+        "version": "3.5.0",
+        "namespace": "Elementor\\Core\\Files\\Assets\\Svg",
+        "line": 143,
+        "file_path": "\/core\/files\/assets\/svg\/svg-handler.php"
+    },
+    {
+        "type": "function",
+        "name": "wp_prepare_attachment_for_js",
+        "version": "3.5.0",
+        "namespace": "Elementor\\Core\\Files\\Assets\\Svg",
+        "line": 163,
+        "file_path": "\/core\/files\/assets\/svg\/svg-handler.php"
+    },
+    {
+        "type": "function",
+        "name": "set_attachment_id",
+        "version": "3.5.0",
+        "namespace": "Elementor\\Core\\Files\\Assets\\Svg",
+        "line": 181,
+        "file_path": "\/core\/files\/assets\/svg\/svg-handler.php"
+    },
+    {
+        "type": "function",
+        "name": "get_attachment_id",
+        "version": "3.5.0",
+        "namespace": "Elementor\\Core\\Files\\Assets\\Svg",
+        "line": 195,
+        "file_path": "\/core\/files\/assets\/svg\/svg-handler.php"
+    },
+    {
+        "type": "function",
+        "name": "set_svg_meta_data",
+        "version": "3.5.0",
+        "namespace": "Elementor\\Core\\Files\\Assets\\Svg",
+        "line": 208,
+        "file_path": "\/core\/files\/assets\/svg\/svg-handler.php"
+    },
+    {
+        "type": "function",
+        "name": "handle_upload_prefilter",
+        "version": "3.5.0",
+        "namespace": "Elementor\\Core\\Files\\Assets\\Svg",
+        "line": 226,
+        "file_path": "\/core\/files\/assets\/svg\/svg-handler.php"
+    },
+    {
+        "type": "function",
+        "name": "register_ajax_actions",
+        "version": "3.5.0",
+        "namespace": "Elementor\\Core\\Files",
+        "line": 140,
+        "file_path": "\/core\/files\/manager.php"
+    },
+    {
+        "type": "function",
+        "name": "ajax_unfiltered_files_upload",
+        "version": "3.5.0",
+        "namespace": "Elementor\\Core\\Files",
+        "line": 153,
+        "file_path": "\/core\/files\/manager.php"
+    },
+    {
+        "type": "class",
+        "name": "Responsive",
+        "version": "3.2.0",
+        "namespace": "Elementor\\Core\\Responsive",
+        "line": 21,
+        "file_path": "\/core\/responsive\/responsive.php"
+    },
+    {
+        "type": "function",
+        "name": "_get_current_scheme_title",
+        "version": "3.3.0",
+        "namespace": "Elementor\\Core\\Schemes",
+        "line": 286,
+        "file_path": "\/core\/schemes\/color.php"
+    },
+    {
+        "type": "class",
+        "name": "Manager",
+        "version": "3.0.0",
+        "namespace": "Elementor\\Core\\Settings\\General",
+        "line": 18,
+        "file_path": "\/core\/settings\/general\/manager.php"
+    },
+    {
+        "type": "function",
+        "name": "get_saved_settings",
+        "version": "",
+        "namespace": "Elementor\\Core\\Settings\\General",
+        "line": 74,
+        "file_path": "\/core\/settings\/general\/manager.php"
+    },
+    {
+        "type": "function",
+        "name": "save_settings_to_db",
+        "version": "",
+        "namespace": "Elementor\\Core\\Settings\\General",
+        "line": 96,
+        "file_path": "\/core\/settings\/general\/manager.php"
+    },
+    {
+        "type": "function",
+        "name": "get_model_for_css_file",
+        "version": "",
+        "namespace": "Elementor\\Core\\Settings\\General",
+        "line": 103,
+        "file_path": "\/core\/settings\/general\/manager.php"
+    },
+    {
+        "type": "function",
+        "name": "get_css_file_for_update",
+        "version": "",
+        "namespace": "Elementor\\Core\\Settings\\General",
+        "line": 110,
+        "file_path": "\/core\/settings\/general\/manager.php"
+    },
+    {
+        "type": "class",
+        "name": "Model",
+        "version": "3.0.0",
+        "namespace": "Elementor\\Core\\Settings\\General",
+        "line": 17,
+        "file_path": "\/core\/settings\/general\/model.php"
+    },
+    {
+        "type": "function",
+        "name": "admin_localize_settings",
+        "version": "3.1.0",
+        "namespace": "Elementor\\Core\\Upgrade",
+        "line": 33,
+        "file_path": "\/core\/upgrade\/elementor-3-re-migrate-globals.php"
+    },
+    {
+        "type": "function",
+        "name": "elementor_load_plugin_textdomain",
+        "version": "3.1.0",
+        "namespace": "",
+        "line": 65,
+        "file_path": "\/elementor.php"
+    },
+    {
+        "type": "const",
+        "name": "RESPONSIVE_DESKTOP",
+        "version": "3.4.0",
+        "namespace": "Elementor",
+        "line": 29,
+        "file_path": "\/includes\/base\/controls-stack.php"
+    },
+    {
+        "type": "const",
+        "name": "RESPONSIVE_TABLET",
+        "version": "3.4.0",
+        "namespace": "Elementor",
+        "line": 36,
+        "file_path": "\/includes\/base\/controls-stack.php"
+    },
+    {
+        "type": "const",
+        "name": "RESPONSIVE_MOBILE",
+        "version": "3.4.0",
+        "namespace": "Elementor",
+        "line": 43,
+        "file_path": "\/includes\/base\/controls-stack.php"
+    },
+    {
+        "type": "function",
+        "name": "get_active_controls",
+        "version": "3.0.0",
+        "namespace": "Elementor",
+        "line": 321,
+        "file_path": "\/includes\/base\/controls-stack.php"
+    },
+    {
+        "type": "function",
+        "name": "get_responsive_control_device_suffix",
+        "version": "3.7.6",
+        "namespace": "Elementor",
+        "line": 1361,
+        "file_path": "\/includes\/base\/controls-stack.php"
+    },
+    {
+        "type": "function",
+        "name": "_register_controls",
+        "version": "3.1.0",
+        "namespace": "Elementor",
+        "line": 2119,
+        "file_path": "\/includes\/base\/controls-stack.php"
+    },
+    {
+        "type": "function",
+        "name": "_get_initial_config",
+        "version": "2.9.0",
+        "namespace": "Elementor",
+        "line": 2209,
+        "file_path": "\/includes\/base\/controls-stack.php"
+    },
+    {
+        "type": "function",
+        "name": "_content_template",
+        "version": "2.9.0",
+        "namespace": "Elementor",
+        "line": 2305,
+        "file_path": "\/includes\/base\/controls-stack.php"
+    },
+    {
+        "type": "function",
+        "name": "_init",
+        "version": "2.9.0",
+        "namespace": "Elementor",
+        "line": 2394,
+        "file_path": "\/includes\/base\/controls-stack.php"
+    },
+    {
+        "type": "function",
+        "name": "_add_render_attributes",
+        "version": "3.1.0",
+        "namespace": "Elementor",
+        "line": 652,
+        "file_path": "\/includes\/base\/element-base.php"
+    },
+    {
+        "type": "function",
+        "name": "_print_content",
+        "version": "3.1.0",
+        "namespace": "Elementor",
+        "line": 1338,
+        "file_path": "\/includes\/base\/element-base.php"
+    },
+    {
+        "type": "function",
+        "name": "_register_skins",
+        "version": "3.1.0",
+        "namespace": "Elementor",
+        "line": 322,
+        "file_path": "\/includes\/base\/widget-base.php"
+    },
+    {
+        "type": "class",
+        "name": "Control_Icon",
+        "version": "2.6.0",
+        "namespace": "Elementor",
+        "line": 18,
+        "file_path": "\/includes\/controls\/icon.php"
+    },
+    {
+        "type": "function",
+        "name": "support_svg_import",
+        "version": "3.5.0",
+        "namespace": "Elementor",
+        "line": 216,
+        "file_path": "\/includes\/controls\/icons.php"
+    },
+    {
+        "type": "function",
+        "name": "support_svg_and_json_import",
+        "version": "3.5.0",
+        "namespace": "Elementor",
+        "line": 95,
+        "file_path": "\/includes\/controls\/media.php"
+    },
+    {
+        "type": "const",
+        "name": "STATUS_PUBLISH",
+        "version": "3.1.0",
+        "namespace": "Elementor",
+        "line": 31,
+        "file_path": "\/includes\/db.php"
+    },
+    {
+        "type": "const",
+        "name": "STATUS_DRAFT",
+        "version": "3.1.0",
+        "namespace": "Elementor",
+        "line": 38,
+        "file_path": "\/includes\/db.php"
+    },
+    {
+        "type": "const",
+        "name": "STATUS_PRIVATE",
+        "version": "3.1.0",
+        "namespace": "Elementor",
+        "line": 45,
+        "file_path": "\/includes\/db.php"
+    },
+    {
+        "type": "const",
+        "name": "STATUS_AUTOSAVE",
+        "version": "3.1.0",
+        "namespace": "Elementor",
+        "line": 52,
+        "file_path": "\/includes\/db.php"
+    },
+    {
+        "type": "const",
+        "name": "STATUS_PENDING",
+        "version": "3.1.0",
+        "namespace": "Elementor",
+        "line": 59,
+        "file_path": "\/includes\/db.php"
+    },
+    {
+        "type": "function",
+        "name": "get_builder",
+        "version": "3.1.0",
+        "namespace": "Elementor",
+        "line": 99,
+        "file_path": "\/includes\/db.php"
+    },
+    {
+        "type": "function",
+        "name": "set_is_elementor_page",
+        "version": "3.1.0",
+        "namespace": "Elementor",
+        "line": 166,
+        "file_path": "\/includes\/db.php"
+    },
+    {
+        "type": "function",
+        "name": "is_built_with_elementor",
+        "version": "3.2.0",
+        "namespace": "Elementor",
+        "line": 362,
+        "file_path": "\/includes\/db.php"
+    },
+    {
+        "type": "function",
+        "name": "get_fields",
+        "version": "2.1.0",
+        "namespace": "Elementor",
+        "line": 131,
+        "file_path": "\/includes\/elements\/repeater.php"
+    },
+    {
+        "type": "function",
+        "name": "register_control",
+        "version": "3.5.0",
+        "namespace": "Elementor",
+        "line": 500,
+        "file_path": "\/includes\/managers\/controls.php"
+    },
+    {
+        "type": "function",
+        "name": "unregister_control",
+        "version": "3.5.0",
+        "namespace": "Elementor",
+        "line": 552,
+        "file_path": "\/includes\/managers\/controls.php"
+    },
+    {
+        "type": "function",
+        "name": "add_admin_strings",
+        "version": "3.1.0",
+        "namespace": "Elementor",
+        "line": 584,
+        "file_path": "\/includes\/managers\/icons.php"
+    },
+    {
+        "type": "function",
+        "name": "register_widget_type",
+        "version": "3.5.0",
+        "namespace": "Elementor",
+        "line": 206,
+        "file_path": "\/includes\/managers\/widgets.php"
+    },
+    {
+        "type": "function",
+        "name": "unregister_widget_type",
+        "version": "3.5.0",
+        "namespace": "Elementor",
+        "line": 263,
+        "file_path": "\/includes\/managers\/widgets.php"
+    },
+    {
+        "type": "function",
+        "name": "get_legacy_mode",
+        "version": "3.1.0",
+        "namespace": "Elementor",
+        "line": 781,
+        "file_path": "\/includes\/plugin.php"
+    },
+    {
+        "type": "function",
+        "name": "update_css_print_method",
+        "version": "3.0.0",
+        "namespace": "Elementor",
+        "line": 207,
+        "file_path": "\/includes\/settings\/settings.php"
+    },
+    {
+        "type": "function",
+        "name": "unregister_source",
+        "version": "2.7.0",
+        "namespace": "Elementor\\TemplateLibrary",
+        "line": 145,
+        "file_path": "\/includes\/template-library\/manager.php"
+    },
+    {
+        "type": "const",
+        "name": "TYPE_META_KEY",
+        "version": "2.3.0",
+        "namespace": "Elementor\\TemplateLibrary",
+        "line": 51,
+        "file_path": "\/includes\/template-library\/sources\/local.php"
+    },
+    {
+        "type": "function",
+        "name": "localize_settings",
+        "version": "3.1.0",
+        "namespace": "Elementor\\Modules\\History",
+        "line": 48,
+        "file_path": "\/modules\/history\/module.php"
+    },
+    {
+        "type": "function",
+        "name": "_get_theme",
+        "version": "3.1.0",
+        "namespace": "Elementor\\Modules\\System_Info\\Reporters",
+        "line": 85,
+        "file_path": "\/modules\/system-info\/reporters\/theme.php"
+    }
+]
