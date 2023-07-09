@@ -10,5 +10,9 @@
             "name": "Mati Horovitz",
             "email": "mati@elementor.com"
         }
-    ]
+    ],
+    "scripts": {
+        "scan:source": "php source-deprecations-scanner.php",
+        "scan:plugins": "php deprecation-usage-scanner.php"
+    }
 }

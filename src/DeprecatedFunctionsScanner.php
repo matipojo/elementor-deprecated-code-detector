@@ -166,6 +166,7 @@ class DeprecatedFunctionsScanner
                 $deprecatedVersion = $this->getDeprecatedVersion($docComment);
                 $thingNameToken = $this->getThingNameToken($tokens, $thingTokenIndex);
                 $namespace = $this->getNamespace($tokens);
+                $replacement = preg_match('/(Use.*instead)/', $docComment, $matches) ? $matches[1] : '';
 
                 if (!$thingNameToken) {
                     var_dump($docComment);
@@ -178,6 +179,7 @@ class DeprecatedFunctionsScanner
                     'version' => $deprecatedVersion,
                     'namespace' => $namespace ?? '',
                     'line' => $thingNameToken[2],
+                    'replacement' => $replacement,
                 ];
             }
         }

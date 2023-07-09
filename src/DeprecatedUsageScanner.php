@@ -28,18 +28,13 @@ class DeprecatedUsageScanner
         $deprecationsToCheck = $this->getDeprecationToCheck($deprecations);
 
         foreach ($filePaths as $filePath) {
-            //  skip elementor-pro and elementor folder
-//            if (strpos($filePath, 'elementor-pro') !== false || strpos($filePath, 'elementor') !== false) {
-//                continue;
-//            }
-
             $deprecations = $this->checkDeprecation($filePath, $deprecationsToCheck);
 
             if (!empty($deprecations)) {
                 $relativeFilePath = str_replace($folderPath, '', $filePath);
 
                 foreach ($deprecations as & $deprecation) {
-                    $deprecation['file_path'] = str_replace('\\', '/', $relativeFilePath);
+                    $deprecation['sourcePath'] = str_replace('\\', '/', $relativeFilePath);
                 }
 
                 $deprecatedFunctionsAndHooks = array_merge($deprecatedFunctionsAndHooks, $deprecations);
@@ -56,9 +51,11 @@ class DeprecatedUsageScanner
         foreach ($deprecations as $deprecation) {
             // if hook
             if ($deprecation['type'] === 'hook') {
-                $deprecationsToCheck[$deprecation['name']] = $deprecation;
+                $deprecation['lookFor'] = $deprecation['name'];
+                $deprecationsToCheck[] = $deprecation;
             } else {
-                $deprecationsToCheck[$deprecation['namespace']] = $deprecation;
+                $deprecation['lookFor'] = $deprecation['namespace'];
+                $deprecationsToCheck[] = $deprecation;
             }
         }
 
@@ -185,16 +182,12 @@ class DeprecatedUsageScanner
         $fileContents = file_get_contents($filePath);
         $deprecations = [];
 
-        foreach ( $deprecationsToCheck as $name => $details ) {
-            $exist = strpos($fileContents, $name) !== false;
-
-            var_dump($filePath, $name, $exist);
+        foreach ( $deprecationsToCheck as $details ) {
+            $exist = strpos($fileContents, $details['lookFor']) !== false;
 
             if ( ! $exist ) {
                 continue;
             }
-
-            var_dump($name, $exist);
 
             if ($details['type'] !== 'hook') {
                 $exist = strpos($fileContents, $details['name']) !== false;
@@ -202,10 +195,10 @@ class DeprecatedUsageScanner
                 if (!$exist) {
                     continue;
                 }
-
             }
+
+            unset($details['lookFor']);
             $deprecations[] = [
-                'filePath' => $filePath,
                 'details' => $details,
             ];
         }
