@@ -7,15 +7,30 @@ $deprecations = json_decode(file_get_contents(__DIR__ . '/deprecations.json'), t
 
 $scanner = new \DeprecationDetector\DeprecatedUsageScanner();
 
-$folders = [
-    '/mnt/c/Users/mati/Documents/elementor-editor-dev/wordpress/wp-content/plugins/royal-elementor-addons',
-    '/mnt/c/Users/mati/Documents/elementor-editor-dev/wordpress/wp-content/plugins/wordpress-seo',
-];
+$plugins = glob('/mnt/c/Users/mati/Documents/elementor-editor-dev/wordpress/wp-content/plugins/*');
 
-foreach ($folders as $folder) {
-    $deprecatedFunctionsAndHooks = $scanner->scanFolderForDeprecations($folder, $deprecations);
-    $folderParts = explode('/',$folder);
-    $reportFileName = $folderParts[count($folderParts) - 1] . '--deprecation-usage.json';
+foreach ($plugins as $plugin) {
+    $pluginParts = explode('/',$plugin);
+    $pluginName = $pluginParts[count($pluginParts) - 1];
+
+    if ( $pluginName === 'elementor' || $pluginName === 'elementor-cloud-wp-agent' ) {
+        continue;
+    }
+
+    $deprecatedFunctionsAndHooks = $scanner->scanFolderForDeprecations($plugin, $deprecations);
+
+    if ( empty($deprecatedFunctionsAndHooks) ) {
+        continue;
+    }
+
+    $reportFileName = $pluginName . '.json';
     $jsonOutput = json_encode($deprecatedFunctionsAndHooks, JSON_PRETTY_PRINT);
-    file_put_contents($reportFileName, $jsonOutput);
+
+    $resultsPath = __DIR__ . '/results';
+
+    if ( !file_exists($resultsPath) ) {
+        mkdir($resultsPath);
+    }
+
+    file_put_contents($resultsPath . '/' . $reportFileName, $jsonOutput);
 }

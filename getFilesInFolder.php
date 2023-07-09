@@ -1,9 +1,14 @@
 <?php
 namespace DeprecationDetector;
 function getFilesInFolder($folderPath) {
-    $phpFilePaths = array();
+    $phpFilePaths = [];
+
+    if ( ! is_dir($folderPath)) {
+        return $phpFilePaths;
+    }
+
     $files = scandir($folderPath);
-    $exclude = array(
+    $exclude = [
         '.',
         '..',
         '.git',
@@ -11,7 +16,11 @@ function getFilesInFolder($folderPath) {
         'vendor',
         'tmp',
         'tests',
-    );
+    ];
+
+    if ( ! is_array($files)) {
+        return $phpFilePaths;
+    }
 
     foreach ($files as $file) {
         if (in_array($file, $exclude)) {

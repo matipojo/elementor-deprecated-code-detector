@@ -4,6 +4,7 @@
         "name": "localize_feedback_dialog_settings",
         "version": "3.1.0",
         "namespace": "Elementor\\Core\\Admin",
+        "class": "Feedback",
         "line": 77,
         "replacement": "",
         "file_path": "\/core\/admin\/feedback.php"
@@ -13,6 +14,7 @@
         "name": "Module",
         "version": "3.8.0",
         "namespace": "Elementor\\App\\Modules\\ImportExport",
+        "class": "Module",
         "line": 16,
         "replacement": "",
         "file_path": "\/core\/app\/modules\/import-export\/module.php"
@@ -22,6 +24,7 @@
         "name": "VERSION",
         "version": "3.8.0",
         "namespace": "Elementor\\App\\Modules\\ImportExport",
+        "class": "Module",
         "line": 21,
         "replacement": "",
         "file_path": "\/core\/app\/modules\/import-export\/module.php"
@@ -31,6 +34,7 @@
         "name": "get_name",
         "version": "3.8.0",
         "namespace": "Elementor\\App\\Modules\\ImportExport",
+        "class": "Module",
         "line": 31,
         "replacement": "",
         "file_path": "\/core\/app\/modules\/import-export\/module.php"
@@ -40,6 +44,7 @@
         "name": "Kit_Library",
         "version": "3.8.0",
         "namespace": "Elementor\\Core\\App\\Modules\\KitLibrary\\Connect",
+        "class": "Kit_Library",
         "line": 17,
         "replacement": "",
         "file_path": "\/core\/app\/modules\/kit-library\/connect\/kit-library.php"
@@ -49,6 +54,7 @@
         "name": "is_connected",
         "version": "3.8.0",
         "namespace": "Elementor\\Core\\App\\Modules\\KitLibrary\\Connect",
+        "class": "Kit_Library",
         "line": 22,
         "replacement": "",
         "file_path": "\/core\/app\/modules\/kit-library\/connect\/kit-library.php"
@@ -58,6 +64,7 @@
         "name": "Module",
         "version": "3.8.0",
         "namespace": "Elementor\\Core\\App\\Modules\\KitLibrary",
+        "class": "Module",
         "line": 15,
         "replacement": "",
         "file_path": "\/core\/app\/modules\/kit-library\/module.php"
@@ -67,6 +74,7 @@
         "name": "VERSION",
         "version": "3.8.0",
         "namespace": "Elementor\\Core\\App\\Modules\\KitLibrary",
+        "class": "Module",
         "line": 20,
         "replacement": "",
         "file_path": "\/core\/app\/modules\/kit-library\/module.php"
@@ -76,6 +84,7 @@
         "name": "get_name",
         "version": "3.8.0",
         "namespace": "Elementor\\Core\\App\\Modules\\KitLibrary",
+        "class": "Module",
         "line": 25,
         "replacement": "",
         "file_path": "\/core\/app\/modules\/kit-library\/module.php"
@@ -85,6 +94,7 @@
         "name": "Module",
         "version": "3.8.0",
         "namespace": "Elementor\\Core\\App\\Modules\\Onboarding",
+        "class": "Module",
         "line": 15,
         "replacement": "",
         "file_path": "\/core\/app\/modules\/onboarding\/module.php"
@@ -94,6 +104,7 @@
         "name": "VERSION",
         "version": "3.8.0",
         "namespace": "Elementor\\Core\\App\\Modules\\Onboarding",
+        "class": "Module",
         "line": 20,
         "replacement": "",
         "file_path": "\/core\/app\/modules\/onboarding\/module.php"
@@ -103,6 +114,7 @@
         "name": "get_name",
         "version": "3.8.0",
         "namespace": "Elementor\\Core\\App\\Modules\\Onboarding",
+        "class": "Module",
         "line": 25,
         "replacement": "",
         "file_path": "\/core\/app\/modules\/onboarding\/module.php"
@@ -112,6 +124,7 @@
         "name": "localize_settings",
         "version": "3.1.0",
         "namespace": "Elementor\\Core\\Common\\Modules\\Connect",
+        "class": "Module",
         "line": 117,
         "replacement": "",
         "file_path": "\/core\/common\/modules\/connect\/module.php"
@@ -121,6 +134,7 @@
         "name": "get_id",
         "version": "3.5.0",
         "namespace": "Elementor\\Core\\Common\\Modules\\Finder",
+        "class": "Base_Category",
         "line": 41,
         "replacement": "",
         "file_path": "\/core\/common\/modules\/finder\/base-category.php"
@@ -130,6 +144,7 @@
         "name": "add_category",
         "version": "3.5.0",
         "namespace": "Elementor\\Core\\Common\\Modules\\Finder",
+        "class": "Categories_Manager",
         "line": 44,
         "replacement": "Use `register()` method instead",
         "file_path": "\/core\/common\/modules\/finder\/categories-manager.php"
@@ -139,6 +154,7 @@
         "name": "localize_settings",
         "version": "3.1.0",
         "namespace": "Elementor\\Core\\DynamicTags",
+        "class": "Manager",
         "line": 45,
         "replacement": "",
         "file_path": "\/core\/dynamic-tags\/manager.php"
@@ -148,6 +164,7 @@
         "name": "register_tag",
         "version": "3.5.0",
         "namespace": "Elementor\\Core\\DynamicTags",
+        "class": "Manager",
         "line": 284,
         "replacement": "Use `register()` method instead",
         "file_path": "\/core\/dynamic-tags\/manager.php"
@@ -157,6 +174,7 @@
         "name": "unregister_tag",
         "version": "3.5.0",
         "namespace": "Elementor\\Core\\DynamicTags",
+        "class": "Manager",
         "line": 321,
         "replacement": "Use `unregister()` method instead",
         "file_path": "\/core\/dynamic-tags\/manager.php"
@@ -166,6 +184,7 @@
         "name": "Files_Upload_Handler",
         "version": "3.5.0",
         "namespace": "Elementor\\Core\\Files\\Assets",
+        "class": "Files_Upload_Handler",
         "line": 18,
         "replacement": "Use `Elementor\\Core\\Files\\Uploads_Manager` class instead",
         "file_path": "\/core\/files\/assets\/files-upload-handler.php"
@@ -175,6 +194,7 @@
         "name": "OPTION_KEY",
         "version": "3.5.0",
         "namespace": "Elementor\\Core\\Files\\Assets",
+        "class": "Files_Upload_Handler",
         "line": 23,
         "replacement": "",
         "file_path": "\/core\/files\/assets\/files-upload-handler.php"
@@ -184,6 +204,7 @@
         "name": "is_elementor_media_upload",
         "version": "3.5.0",
         "namespace": "Elementor\\Core\\Files\\Assets",
+        "class": "Files_Upload_Handler",
         "line": 42,
         "replacement": "Use `Elementor\\Plugin::$instance->uploads_manager->are_unfiltered_uploads_enabled()` instead",
         "file_path": "\/core\/files\/assets\/files-upload-handler.php"
@@ -193,6 +214,7 @@
         "name": "handle_upload_prefilter",
         "version": "3.5.0",
         "namespace": "Elementor\\Core\\Files\\Assets",
+        "class": "Files_Upload_Handler",
         "line": 79,
         "replacement": "Use `Elementor\\Plugin::$instance->uploads_manager->handle_elementor_wp_media_upload()` instead",
         "file_path": "\/core\/files\/assets\/files-upload-handler.php"
@@ -202,6 +224,7 @@
         "name": "is_file_should_handled",
         "version": "3.5.0",
         "namespace": "Elementor\\Core\\Files\\Assets",
+        "class": "Files_Upload_Handler",
         "line": 94,
         "replacement": "",
         "file_path": "\/core\/files\/assets\/files-upload-handler.php"
@@ -211,6 +234,7 @@
         "name": "check_filetype_and_ext",
         "version": "3.5.0",
         "namespace": "Elementor\\Core\\Files\\Assets",
+        "class": "Files_Upload_Handler",
         "line": 132,
         "replacement": "Use `Elementor\\Plugin::$instance->uploads_manager->check_filetype_and_ext()` instead",
         "file_path": "\/core\/files\/assets\/files-upload-handler.php"
@@ -220,6 +244,7 @@
         "name": "Json_Handler",
         "version": "3.5.0",
         "namespace": "Elementor\\Core\\Files\\Assets\\Json",
+        "class": "Json_Handler",
         "line": 15,
         "replacement": "Use `Elementor\\Core\\Files\\File_Types\\Svg` instead",
         "file_path": "\/core\/files\/assets\/json\/json-handler.php"
@@ -229,6 +254,7 @@
         "name": "get_mime_type",
         "version": "3.5.0",
         "namespace": "Elementor\\Core\\Files\\Assets\\Json",
+        "class": "Json_Handler",
         "line": 27,
         "replacement": "",
         "file_path": "\/core\/files\/assets\/json\/json-handler.php"
@@ -238,6 +264,7 @@
         "name": "get_file_type",
         "version": "3.5.0",
         "namespace": "Elementor\\Core\\Files\\Assets\\Json",
+        "class": "Json_Handler",
         "line": 34,
         "replacement": "",
         "file_path": "\/core\/files\/assets\/json\/json-handler.php"
@@ -247,6 +274,7 @@
         "name": "Svg_Handler",
         "version": "3.5.0",
         "namespace": "Elementor\\Core\\Files\\Assets\\Svg",
+        "class": "Svg_Handler",
         "line": 18,
         "replacement": "Use `Elementor\\Core\\Files\\File_Types\\Svg` instead",
         "file_path": "\/core\/files\/assets\/svg\/svg-handler.php"
@@ -256,6 +284,7 @@
         "name": "META_KEY",
         "version": "3.5.0",
         "namespace": "Elementor\\Core\\Files\\Assets\\Svg",
+        "class": "Svg_Handler",
         "line": 25,
         "replacement": "",
         "file_path": "\/core\/files\/assets\/svg\/svg-handler.php"
@@ -265,6 +294,7 @@
         "name": "SCRIPT_REGEX",
         "version": "3.5.0",
         "namespace": "Elementor\\Core\\Files\\Assets\\Svg",
+        "class": "Svg_Handler",
         "line": 30,
         "replacement": "",
         "file_path": "\/core\/files\/assets\/svg\/svg-handler.php"
@@ -274,6 +304,7 @@
         "name": "get_meta",
         "version": "3.5.0",
         "namespace": "Elementor\\Core\\Files\\Assets\\Svg",
+        "class": "Svg_Handler",
         "line": 57,
         "replacement": "",
         "file_path": "\/core\/files\/assets\/svg\/svg-handler.php"
@@ -283,6 +314,7 @@
         "name": "update_meta",
         "version": "3.5.0",
         "namespace": "Elementor\\Core\\Files\\Assets\\Svg",
+        "class": "Svg_Handler",
         "line": 70,
         "replacement": "",
         "file_path": "\/core\/files\/assets\/svg\/svg-handler.php"
@@ -292,6 +324,7 @@
         "name": "delete_meta",
         "version": "3.5.0",
         "namespace": "Elementor\\Core\\Files\\Assets\\Svg",
+        "class": "Svg_Handler",
         "line": 81,
         "replacement": "",
         "file_path": "\/core\/files\/assets\/svg\/svg-handler.php"
@@ -301,6 +334,7 @@
         "name": "get_mime_type",
         "version": "3.5.0",
         "namespace": "Elementor\\Core\\Files\\Assets\\Svg",
+        "class": "Svg_Handler",
         "line": 90,
         "replacement": "",
         "file_path": "\/core\/files\/assets\/svg\/svg-handler.php"
@@ -310,6 +344,7 @@
         "name": "get_file_type",
         "version": "3.5.0",
         "namespace": "Elementor\\Core\\Files\\Assets\\Svg",
+        "class": "Svg_Handler",
         "line": 97,
         "replacement": "",
         "file_path": "\/core\/files\/assets\/svg\/svg-handler.php"
@@ -319,6 +354,7 @@
         "name": "delete_meta_cache",
         "version": "3.5.0",
         "namespace": "Elementor\\Core\\Files\\Assets\\Svg",
+        "class": "Svg_Handler",
         "line": 106,
         "replacement": "Use `Plugin::$instance->uploads_manager->get_file_type_handlers( 'svg' )->delete_meta_cache()` instead",
         "file_path": "\/core\/files\/assets\/svg\/svg-handler.php"
@@ -328,6 +364,7 @@
         "name": "sanitize_svg",
         "version": "3.5.0",
         "namespace": "Elementor\\Core\\Files\\Assets\\Svg",
+        "class": "Svg_Handler",
         "line": 139,
         "replacement": "Use `Plugin::$instance->uploads_manager->get_file_type_handlers( 'svg' )->delete_meta_cache()->sanitize_svg()` instead",
         "file_path": "\/core\/files\/assets\/svg\/svg-handler.php"
@@ -337,6 +374,7 @@
         "name": "sanitizer",
         "version": "3.5.0",
         "namespace": "Elementor\\Core\\Files\\Assets\\Svg",
+        "class": "Svg_Handler",
         "line": 157,
         "replacement": "Use `Plugin::$instance->uploads_manager->get_file_type_handlers( 'svg' )->sanitizer()` instead",
         "file_path": "\/core\/files\/assets\/svg\/svg-handler.php"
@@ -346,6 +384,7 @@
         "name": "wp_prepare_attachment_for_js",
         "version": "3.5.0",
         "namespace": "Elementor\\Core\\Files\\Assets\\Svg",
+        "class": "Svg_Handler",
         "line": 177,
         "replacement": "Use `Plugin::$instance->uploads_manager->get_file_type_handlers( 'svg' )->wp_prepare_attachment_for_js()` instead",
         "file_path": "\/core\/files\/assets\/svg\/svg-handler.php"
@@ -355,6 +394,7 @@
         "name": "set_attachment_id",
         "version": "3.5.0",
         "namespace": "Elementor\\Core\\Files\\Assets\\Svg",
+        "class": "Svg_Handler",
         "line": 195,
         "replacement": "",
         "file_path": "\/core\/files\/assets\/svg\/svg-handler.php"
@@ -364,6 +404,7 @@
         "name": "get_attachment_id",
         "version": "3.5.0",
         "namespace": "Elementor\\Core\\Files\\Assets\\Svg",
+        "class": "Svg_Handler",
         "line": 209,
         "replacement": "",
         "file_path": "\/core\/files\/assets\/svg\/svg-handler.php"
@@ -373,6 +414,7 @@
         "name": "set_svg_meta_data",
         "version": "3.5.0",
         "namespace": "Elementor\\Core\\Files\\Assets\\Svg",
+        "class": "Svg_Handler",
         "line": 222,
         "replacement": "Use `Plugin::$instance->uploads_manager->get_file_type_handlers( 'svg' )->set_svg_meta_data()` instead",
         "file_path": "\/core\/files\/assets\/svg\/svg-handler.php"
@@ -382,6 +424,7 @@
         "name": "handle_upload_prefilter",
         "version": "3.5.0",
         "namespace": "Elementor\\Core\\Files\\Assets\\Svg",
+        "class": "Svg_Handler",
         "line": 240,
         "replacement": "Use `Elementor\\Plugin::$instance->uploads_manager->handle_elementor_wp_media_upload()` instead",
         "file_path": "\/core\/files\/assets\/svg\/svg-handler.php"
@@ -391,6 +434,7 @@
         "name": "register_ajax_actions",
         "version": "3.5.0",
         "namespace": "Elementor\\Core\\Files",
+        "class": "Manager",
         "line": 140,
         "replacement": "",
         "file_path": "\/core\/files\/manager.php"
@@ -400,6 +444,7 @@
         "name": "ajax_unfiltered_files_upload",
         "version": "3.5.0",
         "namespace": "Elementor\\Core\\Files",
+        "class": "Manager",
         "line": 153,
         "replacement": "",
         "file_path": "\/core\/files\/manager.php"
@@ -409,6 +454,7 @@
         "name": "Responsive",
         "version": "3.2.0",
         "namespace": "Elementor\\Core\\Responsive",
+        "class": "Responsive",
         "line": 21,
         "replacement": "",
         "file_path": "\/core\/responsive\/responsive.php"
@@ -418,24 +464,307 @@
         "name": "BREAKPOINT_OPTION_PREFIX",
         "version": "3.2.0",
         "namespace": "Elementor\\Core\\Responsive",
+        "class": "Responsive",
         "line": 28,
         "replacement": "",
         "file_path": "\/core\/responsive\/responsive.php"
     },
     {
-        "type": "function",
-        "name": "_get_current_scheme_title",
-        "version": "3.3.0",
+        "type": "class",
+        "name": "Color",
+        "version": "3.15.0",
         "namespace": "Elementor\\Core\\Schemes",
-        "line": 286,
+        "class": "Color",
+        "line": 17,
+        "replacement": "Use Global_Colors instead",
+        "file_path": "\/core\/schemes\/color.php"
+    },
+    {
+        "type": "const",
+        "name": "COLOR_1",
+        "version": "3.15.0",
+        "namespace": "Elementor\\Core\\Schemes",
+        "class": "Color",
+        "line": 23,
+        "replacement": "Use Global_Colors::COLOR_PRIMARY instead",
+        "file_path": "\/core\/schemes\/color.php"
+    },
+    {
+        "type": "const",
+        "name": "COLOR_2",
+        "version": "3.15.0",
+        "namespace": "Elementor\\Core\\Schemes",
+        "class": "Color",
+        "line": 29,
+        "replacement": "Use Global_Colors::COLOR_SECONDARY instead",
+        "file_path": "\/core\/schemes\/color.php"
+    },
+    {
+        "type": "const",
+        "name": "COLOR_3",
+        "version": "3.15.0",
+        "namespace": "Elementor\\Core\\Schemes",
+        "class": "Color",
+        "line": 35,
+        "replacement": "Use Global_Colors::COLOR_TEXT instead",
+        "file_path": "\/core\/schemes\/color.php"
+    },
+    {
+        "type": "const",
+        "name": "COLOR_4",
+        "version": "3.15.0",
+        "namespace": "Elementor\\Core\\Schemes",
+        "class": "Color",
+        "line": 41,
+        "replacement": "Use Global_Colors::COLOR_ACCENT instead",
+        "file_path": "\/core\/schemes\/color.php"
+    },
+    {
+        "type": "function",
+        "name": "get_title",
+        "version": "3.15.0",
+        "namespace": "Elementor\\Core\\Schemes",
+        "class": "Color",
+        "line": 70,
         "replacement": "",
         "file_path": "\/core\/schemes\/color.php"
+    },
+    {
+        "type": "function",
+        "name": "get_disabled_title",
+        "version": "3.15.0",
+        "namespace": "Elementor\\Core\\Schemes",
+        "class": "Color",
+        "line": 85,
+        "replacement": "",
+        "file_path": "\/core\/schemes\/color.php"
+    },
+    {
+        "type": "function",
+        "name": "get_scheme_titles",
+        "version": "3.15.0",
+        "namespace": "Elementor\\Core\\Schemes",
+        "class": "Color",
+        "line": 100,
+        "replacement": "",
+        "file_path": "\/core\/schemes\/color.php"
+    },
+    {
+        "type": "function",
+        "name": "get_default_scheme",
+        "version": "3.15.0",
+        "namespace": "Elementor\\Core\\Schemes",
+        "class": "Color",
+        "line": 115,
+        "replacement": "",
+        "file_path": "\/core\/schemes\/color.php"
+    },
+    {
+        "type": "function",
+        "name": "print_template_content",
+        "version": "3.15.0",
+        "namespace": "Elementor\\Core\\Schemes",
+        "class": "Color",
+        "line": 129,
+        "replacement": "",
+        "file_path": "\/core\/schemes\/color.php"
+    },
+    {
+        "type": "function",
+        "name": "register_scheme",
+        "version": "3.0.0",
+        "namespace": "Elementor\\Core\\Schemes",
+        "class": "Manager",
+        "line": 71,
+        "replacement": "",
+        "file_path": "\/core\/schemes\/manager.php"
+    },
+    {
+        "type": "function",
+        "name": "unregister_scheme",
+        "version": "3.0.0",
+        "namespace": "Elementor\\Core\\Schemes",
+        "class": "Manager",
+        "line": 86,
+        "replacement": "",
+        "file_path": "\/core\/schemes\/manager.php"
+    },
+    {
+        "type": "function",
+        "name": "get_registered_schemes",
+        "version": "3.0.0",
+        "namespace": "Elementor\\Core\\Schemes",
+        "class": "Manager",
+        "line": 99,
+        "replacement": "",
+        "file_path": "\/core\/schemes\/manager.php"
+    },
+    {
+        "type": "function",
+        "name": "get_registered_schemes_data",
+        "version": "3.0.0",
+        "namespace": "Elementor\\Core\\Schemes",
+        "class": "Manager",
+        "line": 114,
+        "replacement": "",
+        "file_path": "\/core\/schemes\/manager.php"
+    },
+    {
+        "type": "function",
+        "name": "get_schemes_defaults",
+        "version": "3.0.0",
+        "namespace": "Elementor\\Core\\Schemes",
+        "class": "Manager",
+        "line": 129,
+        "replacement": "",
+        "file_path": "\/core\/schemes\/manager.php"
+    },
+    {
+        "type": "function",
+        "name": "get_system_schemes",
+        "version": "3.0.0",
+        "namespace": "Elementor\\Core\\Schemes",
+        "class": "Manager",
+        "line": 144,
+        "replacement": "",
+        "file_path": "\/core\/schemes\/manager.php"
+    },
+    {
+        "type": "function",
+        "name": "get_scheme",
+        "version": "3.0.0",
+        "namespace": "Elementor\\Core\\Schemes",
+        "class": "Manager",
+        "line": 160,
+        "replacement": "",
+        "file_path": "\/core\/schemes\/manager.php"
+    },
+    {
+        "type": "function",
+        "name": "get_scheme_value",
+        "version": "3.0.0",
+        "namespace": "Elementor\\Core\\Schemes",
+        "class": "Manager",
+        "line": 177,
+        "replacement": "",
+        "file_path": "\/core\/schemes\/manager.php"
+    },
+    {
+        "type": "function",
+        "name": "print_schemes_templates",
+        "version": "3.0.0",
+        "namespace": "Elementor\\Core\\Schemes",
+        "class": "Manager",
+        "line": 191,
+        "replacement": "",
+        "file_path": "\/core\/schemes\/manager.php"
+    },
+    {
+        "type": "class",
+        "name": "Typography",
+        "version": "3.15.0",
+        "namespace": "Elementor\\Core\\Schemes",
+        "class": "Typography",
+        "line": 17,
+        "replacement": "Use Global_Typography instead",
+        "file_path": "\/core\/schemes\/typography.php"
+    },
+    {
+        "type": "const",
+        "name": "TYPOGRAPHY_1",
+        "version": "3.15.0",
+        "namespace": "Elementor\\Core\\Schemes",
+        "class": "Typography",
+        "line": 23,
+        "replacement": "Use Global_Typography::TYPOGRAPHY_PRIMARY instead",
+        "file_path": "\/core\/schemes\/typography.php"
+    },
+    {
+        "type": "const",
+        "name": "TYPOGRAPHY_2",
+        "version": "3.15.0",
+        "namespace": "Elementor\\Core\\Schemes",
+        "class": "Typography",
+        "line": 29,
+        "replacement": "Use Global_Typography::TYPOGRAPHY_SECONDARY instead",
+        "file_path": "\/core\/schemes\/typography.php"
+    },
+    {
+        "type": "const",
+        "name": "TYPOGRAPHY_3",
+        "version": "3.15.0",
+        "namespace": "Elementor\\Core\\Schemes",
+        "class": "Typography",
+        "line": 35,
+        "replacement": "Use Global_Typography::TYPOGRAPHY_TEXT instead",
+        "file_path": "\/core\/schemes\/typography.php"
+    },
+    {
+        "type": "const",
+        "name": "TYPOGRAPHY_4",
+        "version": "3.15.0",
+        "namespace": "Elementor\\Core\\Schemes",
+        "class": "Typography",
+        "line": 41,
+        "replacement": "Use Global_Typography::TYPOGRAPHY_ACCENT instead",
+        "file_path": "\/core\/schemes\/typography.php"
+    },
+    {
+        "type": "function",
+        "name": "get_title",
+        "version": "3.15.0",
+        "namespace": "Elementor\\Core\\Schemes",
+        "class": "Typography",
+        "line": 70,
+        "replacement": "",
+        "file_path": "\/core\/schemes\/typography.php"
+    },
+    {
+        "type": "function",
+        "name": "get_disabled_title",
+        "version": "3.15.0",
+        "namespace": "Elementor\\Core\\Schemes",
+        "class": "Typography",
+        "line": 85,
+        "replacement": "",
+        "file_path": "\/core\/schemes\/typography.php"
+    },
+    {
+        "type": "function",
+        "name": "get_scheme_titles",
+        "version": "3.15.0",
+        "namespace": "Elementor\\Core\\Schemes",
+        "class": "Typography",
+        "line": 100,
+        "replacement": "",
+        "file_path": "\/core\/schemes\/typography.php"
+    },
+    {
+        "type": "function",
+        "name": "get_default_scheme",
+        "version": "3.15.0",
+        "namespace": "Elementor\\Core\\Schemes",
+        "class": "Typography",
+        "line": 115,
+        "replacement": "",
+        "file_path": "\/core\/schemes\/typography.php"
+    },
+    {
+        "type": "function",
+        "name": "print_template_content",
+        "version": "3.15.0",
+        "namespace": "Elementor\\Core\\Schemes",
+        "class": "Typography",
+        "line": 129,
+        "replacement": "",
+        "file_path": "\/core\/schemes\/typography.php"
     },
     {
         "type": "class",
         "name": "Manager",
         "version": "3.0.0",
         "namespace": "Elementor\\Core\\Settings\\General",
+        "class": "Manager",
         "line": 19,
         "replacement": "Use `Plugin::$instance->kits_manager->get_active_kit_for_frontend()` instead",
         "file_path": "\/core\/settings\/general\/manager.php"
@@ -445,6 +774,7 @@
         "name": "META_KEY",
         "version": "3.0.0",
         "namespace": "Elementor\\Core\\Settings\\General",
+        "class": "Manager",
         "line": 26,
         "replacement": "",
         "file_path": "\/core\/settings\/general\/manager.php"
@@ -454,6 +784,7 @@
         "name": "__construct",
         "version": "3.0.0",
         "namespace": "Elementor\\Core\\Settings\\General",
+        "class": "Manager",
         "line": 37,
         "replacement": "",
         "file_path": "\/core\/settings\/general\/manager.php"
@@ -463,6 +794,7 @@
         "name": "get_name",
         "version": "3.0.0",
         "namespace": "Elementor\\Core\\Settings\\General",
+        "class": "Manager",
         "line": 58,
         "replacement": "",
         "file_path": "\/core\/settings\/general\/manager.php"
@@ -472,6 +804,7 @@
         "name": "get_model_for_config",
         "version": "3.0.0",
         "namespace": "Elementor\\Core\\Settings\\General",
+        "class": "Manager",
         "line": 73,
         "replacement": "",
         "file_path": "\/core\/settings\/general\/manager.php"
@@ -481,6 +814,7 @@
         "name": "get_saved_settings",
         "version": "3.0.0",
         "namespace": "Elementor\\Core\\Settings\\General",
+        "class": "Manager",
         "line": 80,
         "replacement": "",
         "file_path": "\/core\/settings\/general\/manager.php"
@@ -490,6 +824,7 @@
         "name": "get_css_file_name",
         "version": "3.0.0",
         "namespace": "Elementor\\Core\\Settings\\General",
+        "class": "Manager",
         "line": 96,
         "replacement": "",
         "file_path": "\/core\/settings\/general\/manager.php"
@@ -499,6 +834,7 @@
         "name": "save_settings_to_db",
         "version": "3.0.0",
         "namespace": "Elementor\\Core\\Settings\\General",
+        "class": "Manager",
         "line": 103,
         "replacement": "",
         "file_path": "\/core\/settings\/general\/manager.php"
@@ -508,6 +844,7 @@
         "name": "get_model_for_css_file",
         "version": "3.0.0",
         "namespace": "Elementor\\Core\\Settings\\General",
+        "class": "Manager",
         "line": 110,
         "replacement": "",
         "file_path": "\/core\/settings\/general\/manager.php"
@@ -517,6 +854,7 @@
         "name": "get_css_file_for_update",
         "version": "3.0.0",
         "namespace": "Elementor\\Core\\Settings\\General",
+        "class": "Manager",
         "line": 117,
         "replacement": "",
         "file_path": "\/core\/settings\/general\/manager.php"
@@ -526,6 +864,7 @@
         "name": "Model",
         "version": "3.0.0",
         "namespace": "Elementor\\Core\\Settings\\General",
+        "class": "Model",
         "line": 18,
         "replacement": "Use `Plugin::$instance->kits_manager->get_active_kit_for_frontend()` instead",
         "file_path": "\/core\/settings\/general\/model.php"
@@ -535,6 +874,7 @@
         "name": "get_name",
         "version": "3.0.0",
         "namespace": "Elementor\\Core\\Settings\\General",
+        "class": "Model",
         "line": 23,
         "replacement": "",
         "file_path": "\/core\/settings\/general\/model.php"
@@ -544,6 +884,7 @@
         "name": "get_panel_page_settings",
         "version": "3.0.0",
         "namespace": "Elementor\\Core\\Settings\\General",
+        "class": "Model",
         "line": 30,
         "replacement": "",
         "file_path": "\/core\/settings\/general\/model.php"
@@ -553,6 +894,7 @@
         "name": "get_tabs_controls",
         "version": "3.0.0",
         "namespace": "Elementor\\Core\\Settings\\General",
+        "class": "Model",
         "line": 37,
         "replacement": "",
         "file_path": "\/core\/settings\/general\/model.php"
@@ -562,6 +904,7 @@
         "name": "get_frontend_settings",
         "version": "3.0.0",
         "namespace": "Elementor\\Core\\Settings\\General",
+        "class": "Model",
         "line": 44,
         "replacement": "",
         "file_path": "\/core\/settings\/general\/model.php"
@@ -571,6 +914,7 @@
         "name": "get_controls",
         "version": "3.0.0",
         "namespace": "Elementor\\Core\\Settings\\General",
+        "class": "Model",
         "line": 51,
         "replacement": "",
         "file_path": "\/core\/settings\/general\/model.php"
@@ -580,25 +924,18 @@
         "name": "get_settings",
         "version": "3.0.0",
         "namespace": "Elementor\\Core\\Settings\\General",
+        "class": "Model",
         "line": 58,
         "replacement": "",
         "file_path": "\/core\/settings\/general\/model.php"
-    },
-    {
-        "type": "function",
-        "name": "admin_localize_settings",
-        "version": "3.1.0",
-        "namespace": "Elementor\\Core\\Upgrade",
-        "line": 33,
-        "replacement": "",
-        "file_path": "\/core\/upgrade\/elementor-3-re-migrate-globals.php"
     },
     {
         "type": "const",
         "name": "RESPONSIVE_DESKTOP",
         "version": "3.4.0",
         "namespace": "Elementor",
-        "line": 29,
+        "class": "Controls_Stack",
+        "line": 28,
         "replacement": "",
         "file_path": "\/includes\/base\/controls-stack.php"
     },
@@ -607,7 +944,8 @@
         "name": "RESPONSIVE_TABLET",
         "version": "3.4.0",
         "namespace": "Elementor",
-        "line": 36,
+        "class": "Controls_Stack",
+        "line": 35,
         "replacement": "",
         "file_path": "\/includes\/base\/controls-stack.php"
     },
@@ -616,7 +954,8 @@
         "name": "RESPONSIVE_MOBILE",
         "version": "3.4.0",
         "namespace": "Elementor",
-        "line": 43,
+        "class": "Controls_Stack",
+        "line": 42,
         "replacement": "",
         "file_path": "\/includes\/base\/controls-stack.php"
     },
@@ -625,7 +964,8 @@
         "name": "get_active_controls",
         "version": "3.0.0",
         "namespace": "Elementor",
-        "line": 321,
+        "class": "Controls_Stack",
+        "line": 320,
         "replacement": "",
         "file_path": "\/includes\/base\/controls-stack.php"
     },
@@ -634,7 +974,8 @@
         "name": "get_responsive_control_device_suffix",
         "version": "3.7.6",
         "namespace": "Elementor",
-        "line": 1361,
+        "class": "Controls_Stack",
+        "line": 1336,
         "replacement": "Use `Elementor\\Controls_Manager::get_responsive_control_device_suffix()` instead",
         "file_path": "\/includes\/base\/controls-stack.php"
     },
@@ -643,7 +984,8 @@
         "name": "_register_controls",
         "version": "3.1.0",
         "namespace": "Elementor",
-        "line": 2119,
+        "class": "Controls_Stack",
+        "line": 2094,
         "replacement": "Use `register_controls()` method instead",
         "file_path": "\/includes\/base\/controls-stack.php"
     },
@@ -652,7 +994,8 @@
         "name": "_get_initial_config",
         "version": "2.9.0",
         "namespace": "Elementor",
-        "line": 2209,
+        "class": "Controls_Stack",
+        "line": 2184,
         "replacement": "Use `get_initial_config()` method instead",
         "file_path": "\/includes\/base\/controls-stack.php"
     },
@@ -661,7 +1004,8 @@
         "name": "_content_template",
         "version": "2.9.0",
         "namespace": "Elementor",
-        "line": 2305,
+        "class": "Controls_Stack",
+        "line": 2280,
         "replacement": "Use `content_template()` method instead",
         "file_path": "\/includes\/base\/controls-stack.php"
     },
@@ -670,7 +1014,8 @@
         "name": "_init",
         "version": "2.9.0",
         "namespace": "Elementor",
-        "line": 2394,
+        "class": "Controls_Stack",
+        "line": 2369,
         "replacement": "Use `init()` method instead",
         "file_path": "\/includes\/base\/controls-stack.php"
     },
@@ -679,6 +1024,7 @@
         "name": "_add_render_attributes",
         "version": "3.1.0",
         "namespace": "Elementor",
+        "class": "Element_Base",
         "line": 652,
         "replacement": "Use `add_render_attribute()` method instead",
         "file_path": "\/includes\/base\/element-base.php"
@@ -688,7 +1034,8 @@
         "name": "_print_content",
         "version": "3.1.0",
         "namespace": "Elementor",
-        "line": 1338,
+        "class": "Element_Base",
+        "line": 1344,
         "replacement": "Use `print_content()` method instead",
         "file_path": "\/includes\/base\/element-base.php"
     },
@@ -697,6 +1044,7 @@
         "name": "_register_skins",
         "version": "3.1.0",
         "namespace": "Elementor",
+        "class": "Widget_Base",
         "line": 322,
         "replacement": "Use `register_skins()` method instead",
         "file_path": "\/includes\/base\/widget-base.php"
@@ -706,6 +1054,7 @@
         "name": "Control_Icon",
         "version": "2.6.0",
         "namespace": "Elementor",
+        "class": "Control_Icon",
         "line": 18,
         "replacement": "Use `Control_Icons` class instead",
         "file_path": "\/includes\/controls\/icon.php"
@@ -715,6 +1064,7 @@
         "name": "get_type",
         "version": "2.6.0",
         "namespace": "Elementor",
+        "class": "Control_Icon",
         "line": 31,
         "replacement": "Use `Control_Icons` class instead",
         "file_path": "\/includes\/controls\/icon.php"
@@ -724,6 +1074,7 @@
         "name": "get_default_settings",
         "version": "2.6.0",
         "namespace": "Elementor",
+        "class": "Control_Icon",
         "line": 852,
         "replacement": "Use `Control_Icons` class instead",
         "file_path": "\/includes\/controls\/icon.php"
@@ -733,6 +1084,7 @@
         "name": "content_template",
         "version": "2.6.0",
         "namespace": "Elementor",
+        "class": "Control_Icon",
         "line": 871,
         "replacement": "Use `Control_Icons` class instead",
         "file_path": "\/includes\/controls\/icon.php"
@@ -742,6 +1094,7 @@
         "name": "support_svg_import",
         "version": "3.5.0",
         "namespace": "Elementor",
+        "class": "Control_Icons",
         "line": 216,
         "replacement": "",
         "file_path": "\/includes\/controls\/icons.php"
@@ -751,6 +1104,7 @@
         "name": "support_svg_and_json_import",
         "version": "3.5.0",
         "namespace": "Elementor",
+        "class": "Control_Media",
         "line": 95,
         "replacement": "",
         "file_path": "\/includes\/controls\/media.php"
@@ -760,6 +1114,7 @@
         "name": "STATUS_PUBLISH",
         "version": "3.1.0",
         "namespace": "Elementor",
+        "class": "DB",
         "line": 31,
         "replacement": "Use `Document::STATUS_PUBLISH` const instead",
         "file_path": "\/includes\/db.php"
@@ -769,6 +1124,7 @@
         "name": "STATUS_DRAFT",
         "version": "3.1.0",
         "namespace": "Elementor",
+        "class": "DB",
         "line": 38,
         "replacement": "Use `Document::STATUS_DRAFT` const instead",
         "file_path": "\/includes\/db.php"
@@ -778,6 +1134,7 @@
         "name": "STATUS_PRIVATE",
         "version": "3.1.0",
         "namespace": "Elementor",
+        "class": "DB",
         "line": 45,
         "replacement": "Use `Document::STATUS_PRIVATE` const instead",
         "file_path": "\/includes\/db.php"
@@ -787,6 +1144,7 @@
         "name": "STATUS_AUTOSAVE",
         "version": "3.1.0",
         "namespace": "Elementor",
+        "class": "DB",
         "line": 52,
         "replacement": "Use `Document::STATUS_AUTOSAVE` const instead",
         "file_path": "\/includes\/db.php"
@@ -796,6 +1154,7 @@
         "name": "STATUS_PENDING",
         "version": "3.1.0",
         "namespace": "Elementor",
+        "class": "DB",
         "line": 59,
         "replacement": "Use `Document::STATUS_PENDING` const instead",
         "file_path": "\/includes\/db.php"
@@ -805,6 +1164,7 @@
         "name": "get_builder",
         "version": "3.1.0",
         "namespace": "Elementor",
+        "class": "DB",
         "line": 99,
         "replacement": "Use `Plugin::$instance->documents->get( $post_id )->get_elements_raw_data( null, true )` OR `Plugin::$instance->documents->get_doc_or_auto_save( $post_id )->get_elements_raw_data( null, true )` instead",
         "file_path": "\/includes\/db.php"
@@ -814,6 +1174,7 @@
         "name": "set_is_elementor_page",
         "version": "3.1.0",
         "namespace": "Elementor",
+        "class": "DB",
         "line": 166,
         "replacement": "Use `Plugin::$instance->documents->get( $post_id )->set_is_build_with_elementor( $is_elementor )` instead",
         "file_path": "\/includes\/db.php"
@@ -823,6 +1184,7 @@
         "name": "is_built_with_elementor",
         "version": "3.2.0",
         "namespace": "Elementor",
+        "class": "DB",
         "line": 362,
         "replacement": "Use `Plugin::$instance->documents->get( $post_id )->is_built_with_elementor()` instead",
         "file_path": "\/includes\/db.php"
@@ -832,6 +1194,7 @@
         "name": "get_fields",
         "version": "2.1.0",
         "namespace": "Elementor",
+        "class": "Repeater",
         "line": 131,
         "replacement": "Use `get_controls()` method instead",
         "file_path": "\/includes\/elements\/repeater.php"
@@ -841,6 +1204,7 @@
         "name": "register_control",
         "version": "3.5.0",
         "namespace": "Elementor",
+        "class": "Controls_Manager",
         "line": 513,
         "replacement": "Use `register()` method instead",
         "file_path": "\/includes\/managers\/controls.php"
@@ -850,6 +1214,7 @@
         "name": "unregister_control",
         "version": "3.5.0",
         "namespace": "Elementor",
+        "class": "Controls_Manager",
         "line": 565,
         "replacement": "Use `unregister()` method instead",
         "file_path": "\/includes\/managers\/controls.php"
@@ -859,6 +1224,7 @@
         "name": "add_admin_strings",
         "version": "3.1.0",
         "namespace": "Elementor",
+        "class": "Icons_Manager",
         "line": 584,
         "replacement": "",
         "file_path": "\/includes\/managers\/icons.php"
@@ -868,6 +1234,7 @@
         "name": "register_widget_type",
         "version": "3.5.0",
         "namespace": "Elementor",
+        "class": "Widgets_Manager",
         "line": 221,
         "replacement": "Use `register()` method instead",
         "file_path": "\/includes\/managers\/widgets.php"
@@ -877,6 +1244,7 @@
         "name": "unregister_widget_type",
         "version": "3.5.0",
         "namespace": "Elementor",
+        "class": "Widgets_Manager",
         "line": 282,
         "replacement": "Use `unregister()` method instead",
         "file_path": "\/includes\/managers\/widgets.php"
@@ -886,7 +1254,8 @@
         "name": "get_legacy_mode",
         "version": "3.1.0",
         "namespace": "Elementor",
-        "line": 781,
+        "class": "Plugin",
+        "line": 780,
         "replacement": "Use `Plugin::$instance->experiments->is_feature_active()` instead",
         "file_path": "\/includes\/plugin.php"
     },
@@ -895,6 +1264,7 @@
         "name": "update_css_print_method",
         "version": "3.0.0",
         "namespace": "Elementor",
+        "class": "Settings",
         "line": 207,
         "replacement": "Use `Plugin::$instance->files_manager->clear_cache()` method instead",
         "file_path": "\/includes\/settings\/settings.php"
@@ -904,6 +1274,7 @@
         "name": "unregister_source",
         "version": "2.7.0",
         "namespace": "Elementor\\TemplateLibrary",
+        "class": "Manager",
         "line": 144,
         "replacement": "",
         "file_path": "\/includes\/template-library\/manager.php"
@@ -913,6 +1284,7 @@
         "name": "TYPE_META_KEY",
         "version": "2.3.0",
         "namespace": "Elementor\\TemplateLibrary",
+        "class": "Source_Local",
         "line": 52,
         "replacement": "Use `Elementor\\Core\\Base\\Document::TYPE_META_KEY` const instead",
         "file_path": "\/includes\/template-library\/sources\/local.php"
@@ -922,6 +1294,7 @@
         "name": "get_responsive_device_args",
         "version": "3.7.0",
         "namespace": "Elementor",
+        "class": "Widget_Common",
         "line": 63,
         "replacement": "",
         "file_path": "\/includes\/widgets\/common.php"
@@ -931,6 +1304,7 @@
         "name": "localize_settings",
         "version": "3.1.0",
         "namespace": "Elementor\\Modules\\History",
+        "class": "Module",
         "line": 48,
         "replacement": "",
         "file_path": "\/modules\/history\/module.php"
@@ -940,6 +1314,7 @@
         "name": "_get_theme",
         "version": "3.1.0",
         "namespace": "Elementor\\Modules\\System_Info\\Reporters",
+        "class": "Theme",
         "line": 85,
         "replacement": "Use `get_theme()` method instead",
         "file_path": "\/modules\/system-info\/reporters\/theme.php"

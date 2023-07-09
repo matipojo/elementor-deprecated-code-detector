@@ -53,6 +53,9 @@ class DeprecatedUsageScanner
             if ($deprecation['type'] === 'hook') {
                 $deprecation['lookFor'] = $deprecation['name'];
                 $deprecationsToCheck[] = $deprecation;
+            } elseif ($deprecation['type'] === 'function' || $deprecation['type'] === 'const' || $deprecation['type'] === 'class') {
+                $deprecation['lookFor'] = $deprecation['namespace'] . '\\' . $deprecation['class'];
+                $deprecationsToCheck[] = $deprecation;
             } else {
                 $deprecation['lookFor'] = $deprecation['namespace'];
                 $deprecationsToCheck[] = $deprecation;
@@ -180,13 +183,30 @@ class DeprecatedUsageScanner
     public function checkDeprecation($filePath, $deprecationsToCheck): array
     {
         $fileContents = file_get_contents($filePath);
+        $contentWithoutSpaces = str_replace([' ', "\t", "\n", "\r"], '', $fileContents);
         $deprecations = [];
 
-        foreach ( $deprecationsToCheck as $details ) {
+        foreach ($deprecationsToCheck as $details) {
             $exist = strpos($fileContents, $details['lookFor']) !== false;
 
-            if ( ! $exist ) {
+            if (!$exist) {
                 continue;
+            }
+
+            if ($details['type'] === 'function') {
+                $exist = strpos($contentWithoutSpaces, '::' . $details['name'] . '(') !== false || strpos($contentWithoutSpaces, '->' . $details['name'] . '(') !== false;
+
+                if (!$exist) {
+                    continue;
+                }
+            }
+
+            if ($details['type'] === 'const') {
+                $exist = strpos($contentWithoutSpaces, $details['class'] . '::' . $details['name']) !== false;
+
+                if (!$exist) {
+                    continue;
+                }
             }
 
             if ($details['type'] !== 'hook') {

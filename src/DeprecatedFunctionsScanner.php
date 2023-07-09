@@ -143,6 +143,20 @@ class DeprecatedFunctionsScanner
         return $namespace;
     }
 
+    private function getClass(array $tokens)
+    {
+        $class = '';
+
+        for ($i = 0; $i < 300; $i++) {
+            if ($tokens[$i][0] === T_CLASS) {
+                $class = $tokens[$i + 2][1];
+                break;
+            }
+        }
+
+        return $class;
+    }
+
     /**
      * @param $filePath
      * @return array
@@ -166,6 +180,7 @@ class DeprecatedFunctionsScanner
                 $deprecatedVersion = $this->getDeprecatedVersion($docComment);
                 $thingNameToken = $this->getThingNameToken($tokens, $thingTokenIndex);
                 $namespace = $this->getNamespace($tokens);
+                $class = $this->getClass($tokens);
                 $replacement = preg_match('/(Use.*instead)/', $docComment, $matches) ? $matches[1] : '';
 
                 if (!$thingNameToken) {
@@ -178,6 +193,7 @@ class DeprecatedFunctionsScanner
                     'name' => trim($thingNameToken[1], "'\""), // remove quotes for hooks
                     'version' => $deprecatedVersion,
                     'namespace' => $namespace ?? '',
+                    'class' => $class ?? '',
                     'line' => $thingNameToken[2],
                     'replacement' => $replacement,
                 ];
