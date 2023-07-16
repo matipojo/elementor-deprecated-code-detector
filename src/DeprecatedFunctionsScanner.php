@@ -181,7 +181,9 @@ class DeprecatedFunctionsScanner
                 $thingNameToken = $this->getThingNameToken($tokens, $thingTokenIndex);
                 $namespace = $this->getNamespace($tokens);
                 $class = $this->getClass($tokens);
-                $replacement = preg_match('/(Use.*instead)/', $docComment, $matches) ? $matches[1] : '';
+
+                // See examples https://regex101.com/r/6scLox/1
+                $replacement = preg_match('/(Use.*instead)/mi', $docComment, $matches) ? $matches[1] : '';
 
                 if (!$thingNameToken) {
                     var_dump($docComment);

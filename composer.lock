@@ -4,15 +4,2069 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "08e78f635ca45b2a9083e6488d54b40b",
-    "packages": [],
+    "content-hash": "f112f50ee048a1509f0dad2f5187552b",
+    "packages": [
+        {
+            "name": "composer/installers",
+            "version": "v2.2.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/composer/installers.git",
+                "reference": "c29dc4b93137acb82734f672c37e029dfbd95b35"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/composer/installers/zipball/c29dc4b93137acb82734f672c37e029dfbd95b35",
+                "reference": "c29dc4b93137acb82734f672c37e029dfbd95b35",
+                "shasum": ""
+            },
+            "require": {
+                "composer-plugin-api": "^1.0 || ^2.0",
+                "php": "^7.2 || ^8.0"
+            },
+            "require-dev": {
+                "composer/composer": "1.6.* || ^2.0",
+                "composer/semver": "^1 || ^3",
+                "phpstan/phpstan": "^0.12.55",
+                "phpstan/phpstan-phpunit": "^0.12.16",
+                "symfony/phpunit-bridge": "^5.3",
+                "symfony/process": "^5"
+            },
+            "type": "composer-plugin",
+            "extra": {
+                "class": "Composer\\Installers\\Plugin",
+                "branch-alias": {
+                    "dev-main": "2.x-dev"
+                },
+                "plugin-modifies-install-path": true
+            },
+            "autoload": {
+                "psr-4": {
+                    "Composer\\Installers\\": "src/Composer/Installers"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "Kyle Robinson Young",
+                    "email": "kyle@dontkry.com",
+                    "homepage": "https://github.com/shama"
+                }
+            ],
+            "description": "A multi-framework Composer library installer",
+            "homepage": "https://composer.github.io/installers/",
+            "keywords": [
+                "Dolibarr",
+                "Eliasis",
+                "Hurad",
+                "ImageCMS",
+                "Kanboard",
+                "Lan Management System",
+                "MODX Evo",
+                "MantisBT",
+                "Mautic",
+                "Maya",
+                "OXID",
+                "Plentymarkets",
+                "Porto",
+                "RadPHP",
+                "SMF",
+                "Starbug",
+                "Thelia",
+                "Whmcs",
+                "WolfCMS",
+                "agl",
+                "annotatecms",
+                "attogram",
+                "bitrix",
+                "cakephp",
+                "chef",
+                "cockpit",
+                "codeigniter",
+                "concrete5",
+                "croogo",
+                "dokuwiki",
+                "drupal",
+                "eZ Platform",
+                "elgg",
+                "expressionengine",
+                "fuelphp",
+                "grav",
+                "installer",
+                "itop",
+                "known",
+                "kohana",
+                "laravel",
+                "lavalite",
+                "lithium",
+                "magento",
+                "majima",
+                "mako",
+                "matomo",
+                "mediawiki",
+                "miaoxing",
+                "modulework",
+                "modx",
+                "moodle",
+                "osclass",
+                "pantheon",
+                "phpbb",
+                "piwik",
+                "ppi",
+                "processwire",
+                "puppet",
+                "pxcms",
+                "reindex",
+                "roundcube",
+                "shopware",
+                "silverstripe",
+                "sydes",
+                "sylius",
+                "tastyigniter",
+                "wordpress",
+                "yawik",
+                "zend",
+                "zikula"
+            ],
+            "support": {
+                "issues": "https://github.com/composer/installers/issues",
+                "source": "https://github.com/composer/installers/tree/v2.2.0"
+            },
+            "funding": [
+                {
+                    "url": "https://packagist.com",
+                    "type": "custom"
+                },
+                {
+                    "url": "https://github.com/composer",
+                    "type": "github"
+                },
+                {
+                    "url": "https://tidelift.com/funding/github/packagist/composer/composer",
+                    "type": "tidelift"
+                }
+            ],
+            "time": "2022-08-20T06:45:11+00:00"
+        },
+        {
+            "name": "elementor/elementor-pro",
+            "version": "3.14.1",
+            "source": {
+                "type": "git",
+                "url": "git@github.com:elementor/elementor-pro.git",
+                "reference": "60d0d4c97b8307e3095b627296b0c9feb9d37586"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://composer.elementor.com/download/3.14.1",
+                "reference": "60d0d4c97b8307e3095b627296b0c9feb9d37586",
+                "shasum": ""
+            },
+            "require-dev": {
+                "inewlegend/elementor-editor-testing": "0.0.2",
+                "phpunit/phpunit": "^5|^6|^7",
+                "yoast/phpunit-polyfills": "^1.0.1"
+            },
+            "type": "wordpress-plugin",
+            "autoload-dev": {
+                "classmap": [
+                    "tests/phpunit/mock/"
+                ]
+            },
+            "scripts": {
+                "test": [
+                    "phpunit --testsuite elementor-pro"
+                ],
+                "test:woocommerce": [
+                    "phpunit --testsuite woocommerce"
+                ],
+                "test:install": [
+                    "bash ./bin/install-wp-tests-local.sh"
+                ]
+            },
+            "license": [
+                "GPL-3.0"
+            ],
+            "authors": [
+                {
+                    "name": "Elementor team"
+                }
+            ],
+            "description": "WordPress website builder, with no limits of design. A website builder that delivers high-end page designs and advanced capabilities, never before seen on WordPress.",
+            "support": {
+                "source": "https://github.com/elementor/elementor-pro/tree/3.14.1"
+            },
+            "time": "2023-06-26T10:17:58+00:00"
+        },
+        {
+            "name": "wpackagist-plugin/3r-elementor-timeline-widget",
+            "version": "2.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/3r-elementor-timeline-widget/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/3r-elementor-timeline-widget.zip?timestamp=1672634680"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/3r-elementor-timeline-widget/"
+        },
+        {
+            "name": "wpackagist-plugin/addon-elements-for-elementor-page-builder",
+            "version": "1.12.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/addon-elements-for-elementor-page-builder/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/addon-elements-for-elementor-page-builder.zip?timestamp=1689229432"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/addon-elements-for-elementor-page-builder/"
+        },
+        {
+            "name": "wpackagist-plugin/addons-for-elementor",
+            "version": "7.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/addons-for-elementor/",
+                "reference": "tags/7.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/addons-for-elementor.7.9.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/addons-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/analogwp-templates",
+            "version": "2.0.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/analogwp-templates/",
+                "reference": "tags/2.0.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/analogwp-templates.2.0.5.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/analogwp-templates/"
+        },
+        {
+            "name": "wpackagist-plugin/anwp-post-grid-for-elementor",
+            "version": "1.2.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/anwp-post-grid-for-elementor/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/anwp-post-grid-for-elementor.zip?timestamp=1688109089"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/anwp-post-grid-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/anywhere-elementor",
+            "version": "1.2.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/anywhere-elementor/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/anywhere-elementor.zip?timestamp=1683026632"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/anywhere-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/astra-sites",
+            "version": "3.2.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/astra-sites/",
+                "reference": "tags/3.2.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/astra-sites.3.2.6.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/astra-sites/"
+        },
+        {
+            "name": "wpackagist-plugin/awesome-contact-form7-for-elementor",
+            "version": "2.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/awesome-contact-form7-for-elementor/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/awesome-contact-form7-for-elementor.zip?timestamp=1678256931"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/awesome-contact-form7-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/bdthemes-element-pack-lite",
+            "version": "5.2.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/bdthemes-element-pack-lite/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/bdthemes-element-pack-lite.zip?timestamp=1688899740"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/bdthemes-element-pack-lite/"
+        },
+        {
+            "name": "wpackagist-plugin/bdthemes-prime-slider-lite",
+            "version": "3.8.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/bdthemes-prime-slider-lite/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/bdthemes-prime-slider-lite.zip?timestamp=1688819269"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/bdthemes-prime-slider-lite/"
+        },
+        {
+            "name": "wpackagist-plugin/before-after-image-comparison-slider-for-elementor",
+            "version": "1.6.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/before-after-image-comparison-slider-for-elementor/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/before-after-image-comparison-slider-for-elementor.zip?timestamp=1680532818"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/before-after-image-comparison-slider-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/betterdocs",
+            "version": "2.3.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/betterdocs/",
+                "reference": "tags/2.3.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/betterdocs.2.3.7.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/betterdocs/"
+        },
+        {
+            "name": "wpackagist-plugin/block-builder",
+            "version": "1.1.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/block-builder/",
+                "reference": "tags/1.1.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/block-builder.1.1.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/block-builder/"
+        },
+        {
+            "name": "wpackagist-plugin/blogmentor",
+            "version": "1.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/blogmentor/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/blogmentor.zip?timestamp=1670484495"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/blogmentor/"
+        },
+        {
+            "name": "wpackagist-plugin/booster-for-elementor",
+            "version": "1.4.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/booster-for-elementor/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/booster-for-elementor.zip?timestamp=1627826881"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/booster-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/cf7-widget-elementor",
+            "version": "2.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/cf7-widget-elementor/",
+                "reference": "tags/2.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/cf7-widget-elementor.2.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/cf7-widget-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/classic-editor",
+            "version": "1.6.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/classic-editor/",
+                "reference": "tags/1.6.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/classic-editor.1.6.3.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/classic-editor/"
+        },
+        {
+            "name": "wpackagist-plugin/connect-polylang-elementor",
+            "version": "2.4.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/connect-polylang-elementor/",
+                "reference": "tags/2.4.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/connect-polylang-elementor.2.4.3.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/connect-polylang-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/countdown-timer-for-elementor",
+            "version": "1.3.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/countdown-timer-for-elementor/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/countdown-timer-for-elementor.zip?timestamp=1650115306"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/countdown-timer-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/dashboard-welcome-for-elementor",
+            "version": "1.0.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/dashboard-welcome-for-elementor/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/dashboard-welcome-for-elementor.zip?timestamp=1670956875"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/dashboard-welcome-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/dethemekit-for-elementor",
+            "version": "2.0.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/dethemekit-for-elementor/",
+                "reference": "tags/2.0.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/dethemekit-for-elementor.2.0.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/dethemekit-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/droit-elementor-addons",
+            "version": "3.1.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/droit-elementor-addons/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/droit-elementor-addons.zip?timestamp=1687694122"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/droit-elementor-addons/"
+        },
+        {
+            "name": "wpackagist-plugin/dynamic-visibility-for-elementor",
+            "version": "5.0.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/dynamic-visibility-for-elementor/",
+                "reference": "tags/5.0.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/dynamic-visibility-for-elementor.5.0.6.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/dynamic-visibility-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/easy-table-of-contents",
+            "version": "2.0.51.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/easy-table-of-contents/",
+                "reference": "tags/2.0.51.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/easy-table-of-contents.2.0.51.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/easy-table-of-contents/"
+        },
+        {
+            "name": "wpackagist-plugin/ele-custom-skin",
+            "version": "3.1.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/ele-custom-skin/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/ele-custom-skin.zip?timestamp=1661262021"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/ele-custom-skin/"
+        },
+        {
+            "name": "wpackagist-plugin/elemailer-lite",
+            "version": "1.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/elemailer-lite/",
+                "reference": "tags/1.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/elemailer-lite.1.9.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/elemailer-lite/"
+        },
+        {
+            "name": "wpackagist-plugin/element-ready-lite",
+            "version": "4.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/element-ready-lite/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/element-ready-lite.zip?timestamp=1682765407"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/element-ready-lite/"
+        },
+        {
+            "name": "wpackagist-plugin/elementor",
+            "version": "3.15.0-beta2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/elementor/",
+                "reference": "tags/3.15.0-beta2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/elementor.3.15.0-beta2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/elementskit-lite",
+            "version": "2.9.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/elementskit-lite/",
+                "reference": "tags/2.9.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/elementskit-lite.2.9.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/elementskit-lite/"
+        },
+        {
+            "name": "wpackagist-plugin/embedpress",
+            "version": "3.8.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/embedpress/",
+                "reference": "tags/3.8.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/embedpress.3.8.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/embedpress/"
+        },
+        {
+            "name": "wpackagist-plugin/envato-elements",
+            "version": "2.0.12",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/envato-elements/",
+                "reference": "tags/2.0.12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/envato-elements.2.0.12.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/envato-elements/"
+        },
+        {
+            "name": "wpackagist-plugin/essential-addons-for-elementor-lite",
+            "version": "5.8.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/essential-addons-for-elementor-lite/",
+                "reference": "tags/5.8.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/essential-addons-for-elementor-lite.5.8.3.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/essential-addons-for-elementor-lite/"
+        },
+        {
+            "name": "wpackagist-plugin/events-widgets-for-elementor-and-the-events-calendar",
+            "version": "1.6.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/events-widgets-for-elementor-and-the-events-calendar/",
+                "reference": "tags/1.6.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/events-widgets-for-elementor-and-the-events-calendar.1.6.3.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/events-widgets-for-elementor-and-the-events-calendar/"
+        },
+        {
+            "name": "wpackagist-plugin/exclusive-addons-for-elementor",
+            "version": "2.6.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/exclusive-addons-for-elementor/",
+                "reference": "tags/2.6.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/exclusive-addons-for-elementor.2.6.5.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/exclusive-addons-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/extensions-for-elementor-form",
+            "version": "2.0.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/extensions-for-elementor-form/",
+                "reference": "tags/2.0.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/extensions-for-elementor-form.2.0.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/extensions-for-elementor-form/"
+        },
+        {
+            "name": "wpackagist-plugin/fancy-elementor-flipbox",
+            "version": "2.4.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/fancy-elementor-flipbox/",
+                "reference": "tags/2.4.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/fancy-elementor-flipbox.2.4.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/fancy-elementor-flipbox/"
+        },
+        {
+            "name": "wpackagist-plugin/flexible-elementor-panel",
+            "version": "2.3.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/flexible-elementor-panel/",
+                "reference": "tags/2.3.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/flexible-elementor-panel.2.3.9.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/flexible-elementor-panel/"
+        },
+        {
+            "name": "wpackagist-plugin/full-screen-menu-for-elementor",
+            "version": "1.0.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/full-screen-menu-for-elementor/",
+                "reference": "tags/1.0.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/full-screen-menu-for-elementor.1.0.6.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/full-screen-menu-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/gradient-button-for-elementor",
+            "version": "1.0.10",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/gradient-button-for-elementor/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/gradient-button-for-elementor.zip?timestamp=1651831351"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/gradient-button-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/graphina-elementor-charts-and-graphs",
+            "version": "1.8.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/graphina-elementor-charts-and-graphs/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/graphina-elementor-charts-and-graphs.zip?timestamp=1688362901"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/graphina-elementor-charts-and-graphs/"
+        },
+        {
+            "name": "wpackagist-plugin/happy-elementor-addons",
+            "version": "3.8.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/happy-elementor-addons/",
+                "reference": "tags/3.8.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/happy-elementor-addons.3.8.5.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/happy-elementor-addons/"
+        },
+        {
+            "name": "wpackagist-plugin/header-footer-elementor",
+            "version": "1.6.14",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/header-footer-elementor/",
+                "reference": "tags/1.6.14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/header-footer-elementor.1.6.14.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/header-footer-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/ht-mega-for-elementor",
+            "version": "2.2.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/ht-mega-for-elementor/",
+                "reference": "tags/2.2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/ht-mega-for-elementor.2.2.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/ht-mega-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/ht-slider-for-elementor",
+            "version": "1.4.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/ht-slider-for-elementor/",
+                "reference": "tags/1.4.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/ht-slider-for-elementor.1.4.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/ht-slider-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/image-hover-effects-addon-for-elementor",
+            "version": "1.3.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/image-hover-effects-addon-for-elementor/",
+                "reference": "tags/1.3.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/image-hover-effects-addon-for-elementor.1.3.8.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/image-hover-effects-addon-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/jeg-elementor-kit",
+            "version": "2.6.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/jeg-elementor-kit/",
+                "reference": "tags/2.6.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/jeg-elementor-kit.2.6.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/jeg-elementor-kit/"
+        },
+        {
+            "name": "wpackagist-plugin/jetsticky-for-elementor",
+            "version": "1.0.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/jetsticky-for-elementor/",
+                "reference": "tags/1.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/jetsticky-for-elementor.1.0.3.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/jetsticky-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/jetwidgets-for-elementor",
+            "version": "1.0.14",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/jetwidgets-for-elementor/",
+                "reference": "tags/1.0.14"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/jetwidgets-for-elementor.1.0.14.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/jetwidgets-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/jetwoo-widgets-for-elementor",
+            "version": "1.1.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/jetwoo-widgets-for-elementor/",
+                "reference": "tags/1.1.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/jetwoo-widgets-for-elementor.1.1.5.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/jetwoo-widgets-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/lenix-elementor-leads-addon",
+            "version": "1.8.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/lenix-elementor-leads-addon/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/lenix-elementor-leads-addon.zip?timestamp=1653109019"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/lenix-elementor-leads-addon/"
+        },
+        {
+            "name": "wpackagist-plugin/magical-addons-for-elementor",
+            "version": "1.1.24",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/magical-addons-for-elementor/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/magical-addons-for-elementor.zip?timestamp=1688818268"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/magical-addons-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/make-column-clickable-elementor",
+            "version": "1.4.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/make-column-clickable-elementor/",
+                "reference": "tags/1.4.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/make-column-clickable-elementor.1.4.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/make-column-clickable-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/marvy-animation-addons-for-elementor-lite",
+            "version": "1.7.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/marvy-animation-addons-for-elementor-lite/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/marvy-animation-addons-for-elementor-lite.zip?timestamp=1689080334"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/marvy-animation-addons-for-elementor-lite/"
+        },
+        {
+            "name": "wpackagist-plugin/master-addons",
+            "version": "2.0.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/master-addons/",
+                "reference": "tags/2.0.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/master-addons.2.0.3.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/master-addons/"
+        },
+        {
+            "name": "wpackagist-plugin/mega-elements-addons-for-elementor",
+            "version": "1.1.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/mega-elements-addons-for-elementor/",
+                "reference": "tags/1.1.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/mega-elements-addons-for-elementor.1.1.9.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/mega-elements-addons-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/metform",
+            "version": "3.3.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/metform/",
+                "reference": "tags/3.3.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/metform.3.3.3.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/metform/"
+        },
+        {
+            "name": "wpackagist-plugin/mighty-addons",
+            "version": "1.9.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/mighty-addons/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/mighty-addons.zip?timestamp=1659008514"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/mighty-addons/"
+        },
+        {
+            "name": "wpackagist-plugin/mphb-elementor",
+            "version": "1.1.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/mphb-elementor/",
+                "reference": "tags/1.1.7"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/mphb-elementor.1.1.7.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/mphb-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/notificationx",
+            "version": "2.7.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/notificationx/",
+                "reference": "tags/2.7.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/notificationx.2.7.3.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/notificationx/"
+        },
+        {
+            "name": "wpackagist-plugin/ooohboi-steroids-for-elementor",
+            "version": "2.1.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/ooohboi-steroids-for-elementor/",
+                "reference": "tags/2.1.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/ooohboi-steroids-for-elementor.2.1.5.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/ooohboi-steroids-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/performance-lab",
+            "version": "2.4.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/performance-lab/",
+                "reference": "tags/2.4.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/performance-lab.2.4.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/performance-lab/"
+        },
+        {
+            "name": "wpackagist-plugin/persian-elementor",
+            "version": "2.6.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/persian-elementor/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/persian-elementor.zip?timestamp=1688929625"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/persian-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/piotnet-addons-for-elementor",
+            "version": "2.4.23",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/piotnet-addons-for-elementor/",
+                "reference": "tags/2.4.23"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/piotnet-addons-for-elementor.2.4.23.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/piotnet-addons-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/portfolio-elementor",
+            "version": "3.0.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/portfolio-elementor/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/portfolio-elementor.zip?timestamp=1688567570"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/portfolio-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/post-carousel-slider-for-elementor",
+            "version": "1.3.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/post-carousel-slider-for-elementor/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/post-carousel-slider-for-elementor.zip?timestamp=1666875366"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/post-carousel-slider-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/post-grid-elementor-addon",
+            "version": "2.0.13",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/post-grid-elementor-addon/",
+                "reference": "tags/2.0.13"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/post-grid-elementor-addon.2.0.13.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/post-grid-elementor-addon/"
+        },
+        {
+            "name": "wpackagist-plugin/power-ups-for-elementor",
+            "version": "1.2.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/power-ups-for-elementor/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/power-ups-for-elementor.zip?timestamp=1648683554"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/power-ups-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/powerpack-lite-for-elementor",
+            "version": "2.7.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/powerpack-lite-for-elementor/",
+                "reference": "tags/2.7.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/powerpack-lite-for-elementor.2.7.8.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/powerpack-lite-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/premium-addons-for-elementor",
+            "version": "4.10.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/premium-addons-for-elementor/",
+                "reference": "tags/4.10.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/premium-addons-for-elementor.4.10.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/premium-addons-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/primary-addon-for-elementor",
+            "version": "1.5.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/primary-addon-for-elementor/",
+                "reference": "tags/1.5.3"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/primary-addon-for-elementor.1.5.3.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/primary-addon-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/qi-addons-for-elementor",
+            "version": "1.6.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/qi-addons-for-elementor/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/qi-addons-for-elementor.zip?timestamp=1686061392"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/qi-addons-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/responsive-add-ons",
+            "version": "2.8.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/responsive-add-ons/",
+                "reference": "tags/2.8.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/responsive-add-ons.2.8.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/responsive-add-ons/"
+        },
+        {
+            "name": "wpackagist-plugin/rife-elementor-extensions",
+            "version": "1.2.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/rife-elementor-extensions/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/rife-elementor-extensions.zip?timestamp=1677706027"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/rife-elementor-extensions/"
+        },
+        {
+            "name": "wpackagist-plugin/royal-elementor-addons",
+            "version": "1.3.71",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/royal-elementor-addons/",
+                "reference": "tags/1.3.71"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/royal-elementor-addons.1.3.71.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/royal-elementor-addons/"
+        },
+        {
+            "name": "wpackagist-plugin/sb-elementor-contact-form-db",
+            "version": "1.8.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/sb-elementor-contact-form-db/",
+                "reference": "tags/1.8.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/sb-elementor-contact-form-db.1.8.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/sb-elementor-contact-form-db/"
+        },
+        {
+            "name": "wpackagist-plugin/scroll-magic-addon-for-elementor",
+            "version": "1.1.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/scroll-magic-addon-for-elementor/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/scroll-magic-addon-for-elementor.zip?timestamp=1650122719"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/scroll-magic-addon-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/shopengine",
+            "version": "4.2.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/shopengine/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/shopengine.zip?timestamp=1688289844"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/shopengine/"
+        },
+        {
+            "name": "wpackagist-plugin/sina-extension-for-elementor",
+            "version": "3.4.7",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/sina-extension-for-elementor/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/sina-extension-for-elementor.zip?timestamp=1688151803"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/sina-extension-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/skt-templates",
+            "version": "5.0.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/skt-templates/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/skt-templates.zip?timestamp=1688558909"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/skt-templates/"
+        },
+        {
+            "name": "wpackagist-plugin/skyboot-custom-icons-for-elementor",
+            "version": "1.0.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/skyboot-custom-icons-for-elementor/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/skyboot-custom-icons-for-elementor.zip?timestamp=1684861260"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/skyboot-custom-icons-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/stax-buddy-builder",
+            "version": "1.7.4",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/stax-buddy-builder/",
+                "reference": "tags/1.7.4"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/stax-buddy-builder.1.7.4.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/stax-buddy-builder/"
+        },
+        {
+            "name": "wpackagist-plugin/sticky-header-effects-for-elementor",
+            "version": "1.6.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/sticky-header-effects-for-elementor/",
+                "reference": "tags/1.6.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/sticky-header-effects-for-elementor.1.6.5.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/sticky-header-effects-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/stratum",
+            "version": "1.3.15",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/stratum/",
+                "reference": "tags/1.3.15"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/stratum.1.3.15.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/stratum/"
+        },
+        {
+            "name": "wpackagist-plugin/templately",
+            "version": "2.2.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/templately/",
+                "reference": "tags/2.2.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/templately.2.2.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/templately/"
+        },
+        {
+            "name": "wpackagist-plugin/the-plus-addons-for-elementor-page-builder",
+            "version": "5.2.11",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/the-plus-addons-for-elementor-page-builder/",
+                "reference": "tags/5.2.11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/the-plus-addons-for-elementor-page-builder.5.2.11.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/the-plus-addons-for-elementor-page-builder/"
+        },
+        {
+            "name": "wpackagist-plugin/the-post-grid",
+            "version": "7.2.6",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/the-post-grid/",
+                "reference": "tags/7.2.6"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/the-post-grid.7.2.6.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/the-post-grid/"
+        },
+        {
+            "name": "wpackagist-plugin/timeline-widget-addon-for-elementor",
+            "version": "1.4.3",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/timeline-widget-addon-for-elementor/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/timeline-widget-addon-for-elementor.zip?timestamp=1680263143"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/timeline-widget-addon-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/tutor-lms-elementor-addons",
+            "version": "2.0.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/tutor-lms-elementor-addons/",
+                "reference": "tags/2.0.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/tutor-lms-elementor-addons.2.0.8.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/tutor-lms-elementor-addons/"
+        },
+        {
+            "name": "wpackagist-plugin/ultimate-addons-for-elementor",
+            "version": "1.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/ultimate-addons-for-elementor/",
+                "reference": "tags/1.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/ultimate-addons-for-elementor.1.8.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/ultimate-addons-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/unlimited-elements-for-elementor",
+            "version": "1.5.78",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/unlimited-elements-for-elementor/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/unlimited-elements-for-elementor.zip?timestamp=1689515919"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/unlimited-elements-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/user-switching",
+            "version": "1.7.0",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/user-switching/",
+                "reference": "tags/1.7.0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/user-switching.1.7.0.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/user-switching/"
+        },
+        {
+            "name": "wpackagist-plugin/visibility-logic-elementor",
+            "version": "2.3.5.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/visibility-logic-elementor/",
+                "reference": "tags/2.3.5.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/visibility-logic-elementor.2.3.5.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/visibility-logic-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/void-elementor-post-grid-addon-for-elementor-page-builder",
+            "version": "2.1.10",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/void-elementor-post-grid-addon-for-elementor-page-builder/",
+                "reference": "tags/2.1.10"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/void-elementor-post-grid-addon-for-elementor-page-builder.2.1.10.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/void-elementor-post-grid-addon-for-elementor-page-builder/"
+        },
+        {
+            "name": "wpackagist-plugin/widgetkit-for-elementor",
+            "version": "2.4.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/widgetkit-for-elementor/",
+                "reference": "tags/2.4.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/widgetkit-for-elementor.2.4.8.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/widgetkit-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/woo-products-widgets-for-elementor",
+            "version": "1.0.9",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woo-products-widgets-for-elementor/",
+                "reference": "tags/1.0.9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woo-products-widgets-for-elementor.1.0.9.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woo-products-widgets-for-elementor/"
+        },
+        {
+            "name": "wpackagist-plugin/woocommerce",
+            "version": "7.8.2",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woocommerce/",
+                "reference": "tags/7.8.2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woocommerce.7.8.2.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woocommerce/"
+        },
+        {
+            "name": "wpackagist-plugin/woolementor",
+            "version": "3.12",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woolementor/",
+                "reference": "tags/3.12"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woolementor.3.12.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woolementor/"
+        },
+        {
+            "name": "wpackagist-plugin/woolentor-addons",
+            "version": "2.6.5",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/woolentor-addons/",
+                "reference": "tags/2.6.5"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/woolentor-addons.2.6.5.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/woolentor-addons/"
+        },
+        {
+            "name": "wpackagist-plugin/wordpress-seo",
+            "version": "20.11",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wordpress-seo/",
+                "reference": "tags/20.11"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wordpress-seo.20.11.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wordpress-seo/"
+        },
+        {
+            "name": "wpackagist-plugin/wpb-elementor-addons",
+            "version": "1.0.8.8",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wpb-elementor-addons/",
+                "reference": "tags/1.0.8.8"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wpb-elementor-addons.1.0.8.8.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wpb-elementor-addons/"
+        },
+        {
+            "name": "wpackagist-plugin/wpzoom-elementor-addons",
+            "version": "1.1.26",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wpzoom-elementor-addons/",
+                "reference": "tags/1.1.26"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wpzoom-elementor-addons.1.1.26.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wpzoom-elementor-addons/"
+        },
+        {
+            "name": "wpackagist-plugin/wunderwp",
+            "version": "1.6.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/wunderwp/",
+                "reference": "tags/1.6.1"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/wunderwp.1.6.1.zip"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/wunderwp/"
+        },
+        {
+            "name": "wpackagist-plugin/zita-site-library",
+            "version": "1.6.1",
+            "source": {
+                "type": "svn",
+                "url": "https://plugins.svn.wordpress.org/zita-site-library/",
+                "reference": "trunk"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://downloads.wordpress.org/plugin/zita-site-library.zip?timestamp=1674129201"
+            },
+            "require": {
+                "composer/installers": "^1.0 || ^2.0"
+            },
+            "type": "wordpress-plugin",
+            "homepage": "https://wordpress.org/plugins/zita-site-library/"
+        }
+    ],
     "packages-dev": [],
     "aliases": [],
     "minimum-stability": "stable",
-    "stability-flags": [],
+    "stability-flags": {
+        "wpackagist-plugin/elementor": 10
+    },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "ext-json": "*"
+    },
     "platform-dev": [],
     "plugin-api-version": "2.2.0"
 }
