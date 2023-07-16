@@ -1,5 +1,6 @@
 {
     "name": "mati/deprecation-detector",
+    "version": "0.0.1",
     "autoload": {
         "psr-4": {
             "DeprecationDetector\\": "src/"
