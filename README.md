@@ -1,11 +1,11 @@
-# Deprecated Code Detector
+# Elementor Deprecated Code Detector
 
 This is a tool to detect deprecated code in Elementor ecosystem plugins.
 
 ## Installation
 
 ```bash
-git clone git@github.com:matipojo/deprecation-detector.git
+git clone git@github.com:matipojo/elementor-deprecated-code-detector.git
 cd deprecation-detector
 ```
 
