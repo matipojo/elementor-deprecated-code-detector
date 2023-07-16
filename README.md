@@ -24,6 +24,10 @@ composer run scan:source
 
 For one plugin:
 ```bash
+composer require wpackagist-plugin/<plugin-name>
+```
+For a specific version
+```bash
 composer require wpackagist-plugin/<plugin-name>:<version>
 ```
 
