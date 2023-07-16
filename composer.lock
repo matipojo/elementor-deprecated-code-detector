@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "f112f50ee048a1509f0dad2f5187552b",
+    "content-hash": "3466782ed013dd8e3aba0909edc9c935",
     "packages": [
         {
             "name": "composer/installers",
@@ -2060,7 +2060,8 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "wpackagist-plugin/elementor": 10
+        "wpackagist-plugin/elementor": 10,
+        "elementor/elementor-pro": 10
     },
     "prefer-stable": false,
     "prefer-lowest": false,

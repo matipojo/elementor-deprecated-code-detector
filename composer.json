@@ -143,10 +143,8 @@
         "wpackagist-plugin/woolementor": "*",
         "wpackagist-plugin/woolentor-addons":  "*",
         "wpackagist-plugin/wordpress-seo": "*",
-        "wpackagist-plugin/wpb-elementor-addons":  "*",
         "wpackagist-plugin/wpzoom-elementor-addons": "*",
-        "wpackagist-plugin/wunderwp":  "*",
-        "wpackagist-plugin/zita-site-library": "*"
+        "wpackagist-plugin/wunderwp":  "*"
     },
     "config": {
         "allow-plugins": {

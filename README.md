@@ -2,6 +2,8 @@
 
 This is a tool to detect deprecated code in Elementor ecosystem plugins.
 
+Currently, it scans 100 top Elementor plugins from WordPress.org.
+
 ## Installation
 
 ```bash
