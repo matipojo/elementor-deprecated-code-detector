@@ -17,6 +17,10 @@ cd deprecation-detector
 
 Update the versions of `elementor` and `elementor-pro` in `composer.json` file to versions you want to scan.
 
+(p.s. for scanning Elementor Pro you need to have a valid license key, see the [instructions](https://developers.elementor.com/docs/cli/composer/#install-elementor-pro/).
+
+Then run:
+
 ```bash
 composer update
 composer run scan:source
@@ -42,5 +46,3 @@ Then run the scan:
 ```bash
 composer run scan:plugins
 ```
-
-
