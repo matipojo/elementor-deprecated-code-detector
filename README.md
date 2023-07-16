@@ -1,6 +1,6 @@
 # Deprecated Code Detector
 
-This is a tool to detect deprecated code in Elementor EcoSystem Plugins.
+This is a tool to detect deprecated code in Elementor ecosystem plugins.
 
 ## Installation
 
