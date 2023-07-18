@@ -34,7 +34,7 @@ Then run:
 
 ```bash
 composer update
-composer run scan:source
+composer scan:source
 ```
 
 ### Scan deprecated code in plugins from WordPress.org
@@ -51,13 +51,13 @@ composer require wpackagist-plugin/<plugin-slug>:<version>
 For a list of plugins, add them to the `composer.json` require section and run:
 ```bash
 composer update
-composer run scan:plugins
+composer scan:plugins
 ```
 
 For scanning top 100 plugins from WordPress.org, run:
 ```bash
-composer run require:top100
-composer run scan:plugins
+composer require:top100
+composer scan:plugins
 ```
 
 ### Scan deprecated code in a custom plugin
@@ -65,10 +65,10 @@ If the plugin is available via Composer, add it to the `composer.json` require s
 
 ```bash
 composer require <package-name>
-composer run scan:plugins
+composer scan:plugins
 ```
 
 Otherwise, put the plugin in the `wp-content/plugins` folder and run:
 ```bash
-composer run scan:plugins
+composer scan:plugins
 ```
