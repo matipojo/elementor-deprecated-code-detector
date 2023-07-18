@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "ff3682493fd96e0cb24a3d3464fe88f6",
+    "content-hash": "681d383c8a0e9d71adb32390cfb316b9",
     "packages": [
         {
             "name": "composer/installers",
@@ -152,56 +152,6 @@
             "time": "2022-08-20T06:45:11+00:00"
         },
         {
-            "name": "elementor/elementor-pro",
-            "version": "3.14.1",
-            "source": {
-                "type": "git",
-                "url": "git@github.com:elementor/elementor-pro.git",
-                "reference": "60d0d4c97b8307e3095b627296b0c9feb9d37586"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://composer.elementor.com/download/3.14.1",
-                "reference": "60d0d4c97b8307e3095b627296b0c9feb9d37586",
-                "shasum": ""
-            },
-            "require-dev": {
-                "inewlegend/elementor-editor-testing": "0.0.2",
-                "phpunit/phpunit": "^5|^6|^7",
-                "yoast/phpunit-polyfills": "^1.0.1"
-            },
-            "type": "wordpress-plugin",
-            "autoload-dev": {
-                "classmap": [
-                    "tests/phpunit/mock/"
-                ]
-            },
-            "scripts": {
-                "test": [
-                    "phpunit --testsuite elementor-pro"
-                ],
-                "test:woocommerce": [
-                    "phpunit --testsuite woocommerce"
-                ],
-                "test:install": [
-                    "bash ./bin/install-wp-tests-local.sh"
-                ]
-            },
-            "license": [
-                "GPL-3.0"
-            ],
-            "authors": [
-                {
-                    "name": "Elementor team"
-                }
-            ],
-            "description": "WordPress website builder, with no limits of design. A website builder that delivers high-end page designs and advanced capabilities, never before seen on WordPress.",
-            "support": {
-                "source": "https://github.com/elementor/elementor-pro/tree/3.14.1"
-            },
-            "time": "2023-06-26T10:17:58+00:00"
-        },
-        {
             "name": "wpackagist-plugin/elementor",
             "version": "3.15.0-beta3",
             "source": {
@@ -224,12 +174,12 @@
     "aliases": [],
     "minimum-stability": "stable",
     "stability-flags": {
-        "wpackagist-plugin/elementor": 10,
-        "elementor/elementor-pro": 10
+        "wpackagist-plugin/elementor": 10
     },
     "prefer-stable": false,
     "prefer-lowest": false,
     "platform": {
+        "php": ">=8.0",
         "ext-json": "*"
     },
     "platform-dev": [],

@@ -18,9 +18,17 @@ cd elementor-deprecated-code-detector
 
 ### Scan new deprecated code
 
-Update the versions of `elementor` and `elementor-pro` in `composer.json` file to versions you want to scan.
+Update the version of `elementor` in `composer.json` file to version you want to scan.
 
-(p.s. for scanning Elementor Pro you need to have a valid license key, see the [instructions](https://developers.elementor.com/docs/cli/composer/#install-elementor-pro/).)
+For scanning deprecations in Elementor Pro, install it via composer ([instructions](https://developers.elementor.com/docs/cli/composer/#install-elementor-pro/)).
+
+Thew scan commands will scan by default both Elementor and Elementor Pro.
+
+For scanning only one of them, add the plugin name to the command, for example:
+```bash
+composer scan:source:elementor
+composer scan:plugins:elementor-pro
+```
 
 Then run:
 

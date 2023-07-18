@@ -46,8 +46,7 @@
         "ext-json": "*",
         "composer/installers": "^2.2",
 
-        "wpackagist-plugin/elementor": "*@beta",
-        "elementor/elementor-pro": "*@beta"
+        "wpackagist-plugin/elementor": "*@beta"
     },
     "config": {
         "allow-plugins": {
