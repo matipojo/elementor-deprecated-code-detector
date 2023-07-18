@@ -16,6 +16,10 @@ cd elementor-deprecated-code-detector
 
 ## Usage
 
+The tool includes two composer commands:
+- `scan:source` A script that scans the source code of Elementor and Elementor Pro and generates a list of deprecated code.
+- `scan:plugins` A script that scans 3rd party plugins and detects if they use deprecated code.
+
 ### Scan new deprecated code
 
 Update the version of `elementor` in `composer.json` file to version you want to scan.
