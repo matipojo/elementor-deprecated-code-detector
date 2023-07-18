@@ -20,6 +20,10 @@ The tool includes two composer commands:
 - `scan:source` Scan the source code of Elementor and Elementor Pro and generates a list of deprecated code.
 - `scan:plugins` Scan 3rd party plugins and detects if they use deprecated code.
 
+The plugins code is scanned from `wp-content/plugins` folder.
+
+The list of deprecated code is saved in `reports` folder.
+
 ### Scan new deprecated code
 
 Update the version of `elementor` in `composer.json` file to version you want to scan.
