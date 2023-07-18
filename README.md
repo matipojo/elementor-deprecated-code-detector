@@ -2,8 +2,6 @@
 
 This is a tool to detect deprecated code in Elementor ecosystem plugins.
 
-Currently, it scans 100 top Elementor plugins from WordPress.org.
-
 ## Installation
 
 ```bash
@@ -40,6 +38,12 @@ composer require wpackagist-plugin/<plugin-slug>:<version>
 For a list of plugins, add them to the `composer.json` require section and run:
 ```bash
 composer update
+composer run scan:plugins
+```
+
+For scanning top 100 plugins from WordPress.org, run:
+```bash
+composer run require:top100
 composer run scan:plugins
 ```
 
