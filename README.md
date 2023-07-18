@@ -8,7 +8,7 @@ Currently, it scans 100 top Elementor plugins from WordPress.org.
 
 ```bash
 git clone git@github.com:matipojo/elementor-deprecated-code-detector.git
-cd deprecation-detector
+cd elementor-deprecated-code-detector
 ```
 
 ## Usage
@@ -17,7 +17,7 @@ cd deprecation-detector
 
 Update the versions of `elementor` and `elementor-pro` in `composer.json` file to versions you want to scan.
 
-(p.s. for scanning Elementor Pro you need to have a valid license key, see the [instructions](https://developers.elementor.com/docs/cli/composer/#install-elementor-pro/).
+(p.s. for scanning Elementor Pro you need to have a valid license key, see the [instructions](https://developers.elementor.com/docs/cli/composer/#install-elementor-pro/).)
 
 Then run:
 
@@ -26,23 +26,32 @@ composer update
 composer run scan:source
 ```
 
-### Scan deprecated code in plugins
+### Scan deprecated code in plugins from WordPress.org
 
 For one plugin:
 ```bash
-composer require wpackagist-plugin/<plugin-name>
+composer require wpackagist-plugin/<plugin-slug>
 ```
 For a specific version
 ```bash
-composer require wpackagist-plugin/<plugin-name>:<version>
+composer require wpackagist-plugin/<plugin-slug>:<version>
 ```
 
 For a list of plugins, add them to the `composer.json` require section and run:
 ```bash
 composer update
+composer run scan:plugins
 ```
 
-Then run the scan:
+### Scan deprecated code in a custom plugin
+If the plugin is available via Composer, add it to the `composer.json` require section and run:
+
+```bash
+composer require <package-name>
+composer run scan:plugins
+```
+
+Otherwise, put the plugin in the `wp-content/plugins` folder and run:
 ```bash
 composer run scan:plugins
 ```
