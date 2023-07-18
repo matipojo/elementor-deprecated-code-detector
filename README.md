@@ -2,6 +2,11 @@
 
 This is a tool to detect deprecated code in Elementor ecosystem plugins.
 
+## Prerequisites
+
+- PHP >= 8.0
+- Composer >= 2.0
+
 ## Installation
 
 ```bash

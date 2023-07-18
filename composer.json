@@ -42,8 +42,9 @@
         }
     ],
     "require": {
-        "composer/installers": "^2.2",
+        "php": ">=8.0",
         "ext-json": "*",
+        "composer/installers": "^2.2",
 
         "wpackagist-plugin/elementor": "*@beta",
         "elementor/elementor-pro": "*@beta"
