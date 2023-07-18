@@ -3,7 +3,8 @@
     "version": "0.0.1",
     "autoload": {
         "psr-4": {
-            "DeprecationDetector\\": "src/"
+            "DeprecationDetector\\": "src/",
+            "DeprecationDetector\\Utils\\": "src/utils/"
         }
     },
     "authors": [

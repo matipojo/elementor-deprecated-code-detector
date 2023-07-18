@@ -2,6 +2,8 @@
 
 namespace DeprecationDetector;
 
+use function DeprecationDetector\Utils\getFilesInFolder;
+
 class DeprecatedUsageScanner
 {
     /**

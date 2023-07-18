@@ -1,9 +1,12 @@
 <?php
-namespace DeprecationDetector;
-function getFilesInFolder($folderPath) {
+
+namespace DeprecationDetector\Utils;
+
+function getFilesInFolder($folderPath): array
+{
     $phpFilePaths = [];
 
-    if ( ! is_dir($folderPath)) {
+    if (!is_dir($folderPath)) {
         return $phpFilePaths;
     }
 
@@ -18,7 +21,7 @@ function getFilesInFolder($folderPath) {
         'tests',
     ];
 
-    if ( ! is_array($files)) {
+    if (!is_array($files)) {
         return $phpFilePaths;
     }
 
