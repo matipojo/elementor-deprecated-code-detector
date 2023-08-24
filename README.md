@@ -60,12 +60,14 @@ composer require wpackagist-plugin/<plugin-slug>:<version>
 For a list of plugins, add them to the `composer.json` require section and run:
 ```bash
 composer update
+composer scan:source
 composer scan:plugins
 ```
 
 For scanning top 100 plugins from WordPress.org, run:
 ```bash
 composer require:top100
+composer scan:source
 composer scan:plugins
 ```
 
