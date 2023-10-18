@@ -50,6 +50,10 @@ class DeprecatedUsageScanner
     {
         $deprecationsToCheck = [];
 
+        if ( is_null( $deprecations ) ) {
+            return $deprecationsToCheck;
+        }
+
         foreach ($deprecations as $deprecation) {
             // if hook
             if ($deprecation['type'] === 'hook') {
